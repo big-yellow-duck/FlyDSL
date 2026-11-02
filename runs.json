@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated": "2026-11-01T22:04:27Z",
+ "updated": "2026-11-02T03:11:46Z",
  "repo": "big-yellow-duck/FlyDSL",
  "runs": [
   {
@@ -10,11 +10,11 @@
    "branch": "main",
    "event": "push",
    "title": "[Feat] Support DslType protocol for Storage[T] (#1347)",
-   "status": "queued",
-   "conclusion": null,
+   "status": "completed",
+   "conclusion": "cancelled",
    "url": "https://github.com/big-yellow-duck/FlyDSL/actions/runs/41268033400",
    "created_at": "2026-11-01T03:09:42Z",
-   "updated_at": "2026-11-01T03:11:34Z",
+   "updated_at": "2026-11-02T03:11:35Z",
    "actor": "big-yellow-duck",
    "jobs": []
   }
