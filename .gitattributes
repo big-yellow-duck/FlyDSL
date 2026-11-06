@@ -1,4 +1,0 @@
-# Generated benchmark evidence; never read by runtime selection.
-tests/perf/data/rdna4_mxfp4_analytical.json linguist-generated=true
-tests/perf/data/rdna4_mxfp4_comprehensive.json linguist-generated=true
-tests/perf/data/rdna4_mxfp4_structure.json linguist-generated=true
