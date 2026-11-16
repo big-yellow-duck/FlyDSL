@@ -1,0 +1,1190 @@
+{
+  "runner": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/vllm-audit/bench_mxfp4_pair.py",
+  "vllm_revision": "3c138b588506cf2196e5f183d3fe893d973ec2e3",
+  "flydsl_revision": "3ed2ca5f68ecc2fd972cb23d4da366364e91d261",
+  "source_alias": {
+    "alias": "flydsl.kernels -> FlyDSL-pr1374-review/kernels",
+    "flydsl_module": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/python/flydsl/__init__.py",
+    "source_kernels_module": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/kernels/__init__.py"
+  },
+  "gpu": 1,
+  "gpu_name": "AMD Radeon AI PRO R9700",
+  "architecture": "gfx1201",
+  "torch_version": "2.13.0+rocm10.0.0",
+  "rounds": 16,
+  "pass_id": 0,
+  "flush_mib": 256,
+  "device_capabilities": {
+    "num_processors": 32,
+    "cache_size_bytes": 67108864,
+    "lds_size_bytes": 65536
+  },
+  "runtime_dispatch_checks": [
+    {
+      "shape_nk": [
+        7,
+        160
+      ],
+      "w4a4_emulation": {
+        "class": "EmulationMxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+      },
+      "w4a8_flydsl": {
+        "class": "Rdna4Mxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+      }
+    },
+    {
+      "shape_nk": [
+        16,
+        32
+      ],
+      "w4a4_emulation": {
+        "class": "EmulationMxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+      },
+      "w4a8_flydsl": {
+        "class": "Rdna4Mxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+      }
+    },
+    {
+      "shape_nk": [
+        16,
+        64
+      ],
+      "w4a4_emulation": {
+        "class": "EmulationMxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+      },
+      "w4a8_flydsl": {
+        "class": "Rdna4Mxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+      }
+    },
+    {
+      "shape_nk": [
+        48,
+        192
+      ],
+      "w4a4_emulation": {
+        "class": "EmulationMxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+      },
+      "w4a8_flydsl": {
+        "class": "Rdna4Mxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+      }
+    },
+    {
+      "shape_nk": [
+        512,
+        1088
+      ],
+      "w4a4_emulation": {
+        "class": "EmulationMxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+      },
+      "w4a8_flydsl": {
+        "class": "Rdna4Mxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+      }
+    },
+    {
+      "shape_nk": [
+        513,
+        4096
+      ],
+      "w4a4_emulation": {
+        "class": "EmulationMxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+      },
+      "w4a8_flydsl": {
+        "class": "Rdna4Mxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+      }
+    },
+    {
+      "shape_nk": [
+        16384,
+        16384
+      ],
+      "w4a4_emulation": {
+        "class": "EmulationMxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+      },
+      "w4a8_flydsl": {
+        "class": "Rdna4Mxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+      }
+    },
+    {
+      "shape_nk": [
+        17408,
+        5120
+      ],
+      "w4a4_emulation": {
+        "class": "EmulationMxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+      },
+      "w4a8_flydsl": {
+        "class": "Rdna4Mxfp4LinearKernel",
+        "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+        "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+      }
+    }
+  ],
+  "timed_region": "CUDA event interval around captured apply_weights kernels; includes per-call W4A4 weight decode and activation Q/DQ, excludes CPU dispatch/allocator overhead and one-time weight setup",
+  "activation_provenance": "seeded BF16 Gaussian input; same tensor per paired arm",
+  "baseline_weight_decode": "per apply_weights call (VLLM_MXFP4_EMULATION_DEQUANT_AT_LOAD must be false)",
+  "results": [
+    {
+      "shape_mnk": [
+        8,
+        7,
+        160
+      ],
+      "pass_id": 0,
+      "weights_source": "synthetic:seeded uint8 MXFP4 weights and E8M0 scales",
+      "backend": {
+        "w4a4_emulation": {
+          "class": "EmulationMxfp4LinearKernel",
+          "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+          "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+        },
+        "w4a8_flydsl": {
+          "class": "Rdna4Mxfp4LinearKernel",
+          "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+          "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+        }
+      },
+      "emulation_rejection": "dq_uint8_mxfp4_to_half_impl, /home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/quark/torch/kernel/hw_emulation/csrc/mxfp4/dequantize.hip:53, Expected dq_uint8_mxfp4_to_half output number of elements to be a multiple of OUTPUTS_PER_THREAD * 64 = 512.",
+      "correctness": {
+        "w4a8_flydsl_own_ref_relative_rms": 0.0
+      },
+      "flydsl_runtime_selection": {
+        "cache_policy": "rotating (vLLM integration hardcodes this)",
+        "config": {
+          "engine": "register",
+          "fast_epilogue": true,
+          "k_unroll": 5,
+          "repeat_m": 1,
+          "repeat_n": 1,
+          "table_mode": "alu",
+          "waves_m": 1,
+          "waves_n": 1
+        }
+      },
+      "timings": {
+        "regimes": {
+          "w4a8_flydsl": {
+            "hot": {
+              "samples_us": [
+                6.600124761462212,
+                6.579999811947346,
+                6.595124956220388,
+                6.585000082850456,
+                6.565125193446875,
+                6.030125077813864,
+                6.039999891072512,
+                6.065125111490488,
+                6.030125077813864,
+                6.065125111490488,
+                6.02012500166893,
+                6.0350000858306885,
+                6.065125111490488,
+                6.02012500166893,
+                6.080124992877245,
+                6.0401251539587975
+              ],
+              "median_us": 6.065125111490488
+            },
+            "rotating": {
+              "samples_us": [
+                11.40000019222498,
+                11.19999960064888,
+                11.52000017464161,
+                11.320999823510647,
+                10.599999688565731,
+                10.759999975562096,
+                10.6800002977252,
+                10.599999688565731,
+                10.599999688565731,
+                10.639999993145466,
+                10.6800002977252,
+                10.520000010728836,
+                10.56000031530857,
+                10.480999946594238,
+                10.600999929010868,
+                10.83999965339899
+              ],
+              "median_us": 10.660000145435333
+            }
+          }
+        },
+        "graph_changed_input_relative_rms": {
+          "w4a8_flydsl": 0.0
+        },
+        "cold_protocol": "read_evicted_weights_warm_activations"
+      },
+      "status": "emulation_unsupported_flydsl_ok"
+    },
+    {
+      "shape_mnk": [
+        1,
+        16,
+        32
+      ],
+      "pass_id": 0,
+      "weights_source": "synthetic:seeded uint8 MXFP4 weights and E8M0 scales",
+      "backend": {
+        "w4a4_emulation": {
+          "class": "EmulationMxfp4LinearKernel",
+          "activation_quant_key": "QuantKey(u8,scale(u8,dynamic,GroupShape(row=1, col=32)),symmetric)",
+          "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with explicit per-quant emulation backend"
+        },
+        "w4a8_flydsl": {
+          "class": "Rdna4Mxfp4LinearKernel",
+          "activation_quant_key": "QuantKey(f8e4m3fn,scale(f32,dynamic,per_token),symmetric)",
+          "selected_by": "init_mxfp4_linear_kernel(kMxfp4Dynamic) with auto gfx1201 dispatch and RDNA4 FP8 substitution"
+        }
+      },
+      "emulation_rejection": "launch_qdq_mxfp4, /home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/quark/torch/kernel/hw_emulation/csrc/mxfp4/fake.hip:46, Expected qdq_mxfp4 input number of elements to be a multiple of 64, but it is not!",
+      "correctness": {
+        "w4a8_flydsl_own_ref_relative_rms": 0.0
+      },
+      "flydsl_runtime_selection": {
+        "cache_policy": "rotating (vLLM integration hardcodes this)",
+        "config": {
+          "engine": "register",
+          "fast_epilogue": true,
+          "k_unroll": 1,
+          "repeat_m": 1,
+          "repeat_n": 1,
+          "table_mode": "alu",
+          "waves_m": 1,
+          "waves_n": 1
+        }
+      },
+      "timings": {
+        "regimes": {
+          "w4a8_flydsl": {
+            "hot": {
+              "samples_us": [
+                6.555125117301941,
+                6.495125126093626,
+                6.375125143676996,
+                6.52512488886714,
+                6.4901248551905155,
+                6.0401251539587975,
+                5.975124891847372,
+                5.9951250441372395,
+                5.830000154674053,
+                6.035124883055687,
+                5.870124790817499,
+                5.985124967992306,
+                5.970125086605549,
+                5.975000094622374,
+                5.985124967992306,
+                5.895125214010477
+              ],
+              "median_us": 5.990125006064773
+            },
+            "rotating": {
+              "samples_us": [
+                11.28000020980835,
+                11.361000128090382,
+                11.07999961823225,
+                11.19999960064888,
+                10.599999688565731,
+                10.6800002977252,
+                10.6800002977252,
+                10.759999975562096,
+                10.720999911427498,
+                10.320000350475311,
+                10.560999624431133,
+                10.479999706149101,
+                10.83999965339899,
+                10.479999706149101,
+                10.6800002977252,
+                10.400000028312206
+              ],
+              "median_us": 10.6800002977252
+            }
+          }
+        },
+        "graph_changed_input_relative_rms": {
+          "w4a8_flydsl": 0.0
+        },
+        "cold_protocol": "read_evicted_weights_warm_activations"
+      },
+      "status": "emulation_unsupported_flydsl_ok"
+    },
+    {
+      "shape_mnk": [
+        1,
+        16,
+        64
+      ],
+      "pass_id": 0,
+      "weights_source": "synthetic:seeded uint8 MXFP4 weights and E8M0 scales",
+      "seed": 20261197,
+      "input_dtype": "bfloat16",
+      "output_dtype": "bfloat16",
+      "backend": {
+        "w4a4_emulation": "EmulationMxfp4LinearKernel",
+        "w4a8_flydsl": "Rdna4Mxfp4LinearKernel"
+      },
+      "activation_schemes": {
+        "w4a4_emulation": "dynamic_mxfp4 checkpoint scheme",
+        "w4a8_flydsl": "dynamic per-token fp8_e4m3"
+      },
+      "flydsl_runtime_selection": {
+        "cache_policy": "rotating (vLLM integration hardcodes this)",
+        "config": {
+          "engine": "register",
+          "fast_epilogue": true,
+          "k_unroll": 2,
+          "repeat_m": 1,
+          "repeat_n": 1,
+          "table_mode": "alu",
+          "waves_m": 1,
+          "waves_n": 1
+        }
+      },
+      "correctness": {
+        "w4a4_emulation_own_ref_relative_rms": 0.0,
+        "w4a8_flydsl_own_ref_relative_rms": 0.0,
+        "cross_backend_relative_rms": 0.08287844061851501,
+        "cross_backend_max_abs": 31.0
+      },
+      "timings": {
+        "regimes": {
+          "w4a4_emulation": {
+            "hot": {
+              "samples_us": [
+                12.51012459397316,
+                12.515249662101269,
+                11.570249684154987,
+                11.565124616026878,
+                11.02524995803833,
+                11.595250107347965,
+                11.560125276446342,
+                11.315125040709972,
+                11.5751251578331,
+                11.575249955058098,
+                11.615250259637833,
+                11.525250039994717,
+                11.515124700963497,
+                11.535124853253365,
+                11.595125310122967,
+                11.600124649703503
+              ],
+              "median_us": 11.572687420994043
+            },
+            "rotating": {
+              "samples_us": [
+                19.600000232458115,
+                19.88000050187111,
+                18.479999154806137,
+                18.68000067770481,
+                18.68000067770481,
+                18.76099966466427,
+                18.799999728798866,
+                18.641000613570213,
+                18.60000006854534,
+                18.480999395251274,
+                18.239999189972878,
+                18.44000071287155,
+                18.76099966466427,
+                18.640000373125076,
+                18.75999942421913,
+                18.60000006854534
+              ],
+              "median_us": 18.660500645637512
+            }
+          },
+          "w4a8_flydsl": {
+            "hot": {
+              "samples_us": [
+                6.465124897658825,
+                6.015125196427107,
+                6.010000128298998,
+                6.070124916732311,
+                6.025124806910753,
+                6.035124883055687,
+                5.885125137865543,
+                6.000124849379063,
+                6.0401251539587975,
+                6.025124806910753,
+                6.030125077813864,
+                6.030125077813864,
+                6.039999891072512,
+                6.060000043362379,
+                6.050124764442444,
+                5.9951250441372395
+              ],
+              "median_us": 6.030125077813864
+            },
+            "rotating": {
+              "samples_us": [
+                11.320999823510647,
+                10.800999589264393,
+                10.599999688565731,
+                10.71999967098236,
+                10.599999688565731,
+                10.599999688565731,
+                10.560999624431133,
+                10.83999965339899,
+                10.641000233590603,
+                10.759999975562096,
+                10.80000028014183,
+                10.440000332891941,
+                10.479999706149101,
+                10.759999975562096,
+                10.56000031530857,
+                10.479999706149101
+              ],
+              "median_us": 10.620499961078167
+            }
+          }
+        },
+        "graph_changed_input_relative_rms": {
+          "w4a4_emulation": 0.0,
+          "w4a8_flydsl": 0.0
+        },
+        "cold_protocol": "read_evicted_weights_warm_activations"
+      },
+      "status": "ok"
+    },
+    {
+      "shape_mnk": [
+        17,
+        48,
+        192
+      ],
+      "pass_id": 0,
+      "weights_source": "synthetic:seeded uint8 MXFP4 weights and E8M0 scales",
+      "seed": 20261373,
+      "input_dtype": "bfloat16",
+      "output_dtype": "bfloat16",
+      "backend": {
+        "w4a4_emulation": "EmulationMxfp4LinearKernel",
+        "w4a8_flydsl": "Rdna4Mxfp4LinearKernel"
+      },
+      "activation_schemes": {
+        "w4a4_emulation": "dynamic_mxfp4 checkpoint scheme",
+        "w4a8_flydsl": "dynamic per-token fp8_e4m3"
+      },
+      "flydsl_runtime_selection": {
+        "cache_policy": "rotating (vLLM integration hardcodes this)",
+        "config": {
+          "engine": "register",
+          "fast_epilogue": true,
+          "k_unroll": 3,
+          "repeat_m": 1,
+          "repeat_n": 1,
+          "table_mode": "alu",
+          "waves_m": 1,
+          "waves_n": 1
+        }
+      },
+      "correctness": {
+        "w4a4_emulation_own_ref_relative_rms": 0.0,
+        "w4a8_flydsl_own_ref_relative_rms": 0.0,
+        "cross_backend_relative_rms": 0.10955450683832169,
+        "cross_backend_max_abs": 140.0
+      },
+      "timings": {
+        "regimes": {
+          "w4a4_emulation": {
+            "hot": {
+              "samples_us": [
+                12.540250085294247,
+                12.08524964749813,
+                12.505250051617622,
+                12.465249747037888,
+                9.565250016748905,
+                12.050249613821507,
+                12.470250017940998,
+                10.48512477427721,
+                12.465249747037888,
+                12.525125406682491,
+                12.445124797523022,
+                12.095125392079353,
+                12.505250051617622,
+                12.500124983489513,
+                12.495124712586403,
+                12.505125254392624
+              ],
+              "median_us": 12.467749882489443
+            },
+            "rotating": {
+              "samples_us": [
+                21.91999927163124,
+                21.720999851822853,
+                21.801000460982323,
+                22.08000048995018,
+                21.880000829696655,
+                22.23999984562397,
+                21.880999207496643,
+                21.84000052511692,
+                21.51999995112419,
+                21.84000052511692,
+                21.91999927163124,
+                21.67999930679798,
+                21.75999991595745,
+                21.91999927163124,
+                21.91999927163124,
+                21.880999207496643
+              ],
+              "median_us": 21.88050001859665
+            }
+          },
+          "w4a8_flydsl": {
+            "hot": {
+              "samples_us": [
+                5.77512476593256,
+                5.895125214010477,
+                5.880124866962433,
+                5.925124976783991,
+                5.874999798834324,
+                5.885125137865543,
+                5.9001250192523,
+                5.920125171542168,
+                5.895125214010477,
+                5.859999917447567,
+                5.895125214010477,
+                5.859999917447567,
+                5.9001250192523,
+                5.9001250192523,
+                5.855124909430742,
+                5.885125137865543
+              ],
+              "median_us": 5.89012517593801
+            },
+            "rotating": {
+              "samples_us": [
+                10.599999688565731,
+                10.520000010728836,
+                10.520000010728836,
+                10.639999993145466,
+                10.520000010728836,
+                10.479999706149101,
+                10.56000031530857,
+                10.520000010728836,
+                10.639999993145466,
+                10.639999993145466,
+                10.520000010728836,
+                10.400000028312206,
+                10.479999706149101,
+                10.520000010728836,
+                10.440000332891941,
+                10.440000332891941
+              ],
+              "median_us": 10.520000010728836
+            }
+          }
+        },
+        "graph_changed_input_relative_rms": {
+          "w4a4_emulation": 0.0,
+          "w4a8_flydsl": 0.0
+        },
+        "cold_protocol": "read_evicted_weights_warm_activations"
+      },
+      "status": "ok"
+    },
+    {
+      "shape_mnk": [
+        73,
+        512,
+        1088
+      ],
+      "pass_id": 0,
+      "weights_source": "synthetic:seeded uint8 MXFP4 weights and E8M0 scales",
+      "seed": 20262789,
+      "input_dtype": "bfloat16",
+      "output_dtype": "bfloat16",
+      "backend": {
+        "w4a4_emulation": "EmulationMxfp4LinearKernel",
+        "w4a8_flydsl": "Rdna4Mxfp4LinearKernel"
+      },
+      "activation_schemes": {
+        "w4a4_emulation": "dynamic_mxfp4 checkpoint scheme",
+        "w4a8_flydsl": "dynamic per-token fp8_e4m3"
+      },
+      "flydsl_runtime_selection": {
+        "cache_policy": "rotating (vLLM integration hardcodes this)",
+        "config": {
+          "cache_group_m": 1,
+          "engine": "hybrid",
+          "epilogue_prefetch": true,
+          "operand_prefetch": 2,
+          "operand_schedule": "none",
+          "schedule": "none",
+          "stages": 2,
+          "table_mode": "lut",
+          "tile_k": 64,
+          "tile_m": 64,
+          "tile_n": 32,
+          "waves_m": 4,
+          "waves_n": 1
+        }
+      },
+      "correctness": {
+        "w4a4_emulation_own_ref_relative_rms": 0.0,
+        "w4a8_flydsl_own_ref_relative_rms": 0.0,
+        "cross_backend_relative_rms": 0.11311730742454529,
+        "cross_backend_max_abs": 312.0
+      },
+      "timings": {
+        "regimes": {
+          "w4a4_emulation": {
+            "hot": {
+              "samples_us": [
+                14.185125008225441,
+                14.170125126838684,
+                14.30012471973896,
+                14.230250380933285,
+                13.970250263810158,
+                14.205125160515308,
+                14.140250161290169,
+                13.95025011152029,
+                14.135249890387058,
+                14.160250313580036,
+                14.145124703645706,
+                14.125250279903412,
+                14.130249619483948,
+                14.140250161290169,
+                14.120125211775303,
+                14.090124517679214
+              ],
+              "median_us": 14.140250161290169
+            },
+            "rotating": {
+              "samples_us": [
+                26.559999212622643,
+                26.360999792814255,
+                26.760000735521317,
+                26.599999517202377,
+                26.72000043094158,
+                26.520000770688057,
+                26.48100070655346,
+                26.72100067138672,
+                26.559999212622643,
+                26.559999212622643,
+                26.56099945306778,
+                26.72100067138672,
+                26.559999212622643,
+                26.360999792814255,
+                26.399999856948853,
+                26.440000161528587
+              ],
+              "median_us": 26.559999212622643
+            }
+          },
+          "w4a8_flydsl": {
+            "hot": {
+              "samples_us": [
+                9.845124557614326,
+                9.940125048160553,
+                9.940125048160553,
+                9.965124540030956,
+                9.900124743580818,
+                9.930125437676907,
+                9.870124980807304,
+                9.925125166773796,
+                9.870124980807304,
+                9.940125048160553,
+                9.88012459129095,
+                9.885124862194061,
+                9.905125014483929,
+                9.905125014483929,
+                9.870124980807304,
+                9.885124862194061
+              ],
+              "median_us": 9.902624879032373
+            },
+            "rotating": {
+              "samples_us": [
+                16.039999201893806,
+                15.799999237060547,
+                16.07999950647354,
+                16.00000075995922,
+                16.00000075995922,
+                15.760000795125961,
+                16.039999201893806,
+                15.839999541640282,
+                16.07999950647354,
+                16.07999950647354,
+                16.00000075995922,
+                15.881000086665154,
+                15.920000150799751,
+                16.039999201893806,
+                16.07999950647354,
+                15.920000150799751
+              ],
+              "median_us": 16.00000075995922
+            }
+          }
+        },
+        "graph_changed_input_relative_rms": {
+          "w4a4_emulation": 0.0,
+          "w4a8_flydsl": 0.0
+        },
+        "cold_protocol": "read_evicted_weights_warm_activations"
+      },
+      "status": "ok"
+    },
+    {
+      "shape_mnk": [
+        73,
+        513,
+        4096
+      ],
+      "pass_id": 0,
+      "weights_source": "synthetic:seeded uint8 MXFP4 weights and E8M0 scales",
+      "seed": 20265798,
+      "input_dtype": "bfloat16",
+      "output_dtype": "bfloat16",
+      "backend": {
+        "w4a4_emulation": "EmulationMxfp4LinearKernel",
+        "w4a8_flydsl": "Rdna4Mxfp4LinearKernel"
+      },
+      "activation_schemes": {
+        "w4a4_emulation": "dynamic_mxfp4 checkpoint scheme",
+        "w4a8_flydsl": "dynamic per-token fp8_e4m3"
+      },
+      "flydsl_runtime_selection": {
+        "cache_policy": "rotating (vLLM integration hardcodes this)",
+        "config": {
+          "cache_group_m": 1,
+          "engine": "hybrid",
+          "epilogue_prefetch": true,
+          "operand_prefetch": 2,
+          "operand_schedule": "none",
+          "schedule": "none",
+          "stages": 2,
+          "table_mode": "lut",
+          "tile_k": 256,
+          "tile_m": 64,
+          "tile_n": 32,
+          "waves_m": 4,
+          "waves_n": 1
+        }
+      },
+      "correctness": {
+        "w4a4_emulation_own_ref_relative_rms": 0.0,
+        "w4a8_flydsl_own_ref_relative_rms": 0.0,
+        "cross_backend_relative_rms": 0.10983362793922424,
+        "cross_backend_max_abs": 479.0
+      },
+      "timings": {
+        "regimes": {
+          "w4a4_emulation": {
+            "hot": {
+              "samples_us": [
+                28.13037484884262,
+                28.24537456035614,
+                28.420375660061836,
+                28.065374121069908,
+                27.820374816656113,
+                28.135374188423157,
+                27.965374290943146,
+                27.955375611782074,
+                27.97050029039383,
+                27.860375121235847,
+                27.900375425815582,
+                27.76537463068962,
+                27.965374290943146,
+                27.965374290943146,
+                27.940375730395317,
+                27.68537402153015
+              ],
+              "median_us": 27.965374290943146
+            },
+            "rotating": {
+              "samples_us": [
+                41.039999574422836,
+                41.120998561382294,
+                41.15999862551689,
+                41.44100099802017,
+                41.280001401901245,
+                41.200000792741776,
+                40.95999896526337,
+                41.31999984383583,
+                41.00000113248825,
+                40.800001472234726,
+                41.20099917054176,
+                41.00099951028824,
+                40.75999930500984,
+                41.120998561382294,
+                41.20099917054176,
+                41.08000174164772
+              ],
+              "median_us": 41.120998561382294
+            }
+          },
+          "w4a8_flydsl": {
+            "hot": {
+              "samples_us": [
+                12.620124965906143,
+                12.51512486487627,
+                12.660125270485878,
+                12.660125270485878,
+                12.595250271260738,
+                12.550249695777893,
+                12.570125050842762,
+                12.620124965906143,
+                12.545250356197357,
+                12.530124746263027,
+                12.535249814391136,
+                12.420125305652618,
+                12.465249747037888,
+                12.500124983489513,
+                12.570125050842762,
+                12.535249814391136
+              ],
+              "median_us": 12.547750025987625
+            },
+            "rotating": {
+              "samples_us": [
+                18.959999084472656,
+                19.120000302791595,
+                18.92000064253807,
+                19.039999693632126,
+                18.880000337958336,
+                18.75999942421913,
+                18.959999084472656,
+                18.799999728798866,
+                18.800999969244003,
+                18.561000004410744,
+                18.8400000333786,
+                18.880000337958336,
+                18.75999942421913,
+                18.719999119639397,
+                18.8400000333786,
+                18.99999938905239
+              ],
+              "median_us": 18.86000018566847
+            }
+          }
+        },
+        "graph_changed_input_relative_rms": {
+          "w4a4_emulation": 0.0,
+          "w4a8_flydsl": 0.0
+        },
+        "cold_protocol": "read_evicted_weights_warm_activations"
+      },
+      "status": "ok"
+    },
+    {
+      "shape_mnk": [
+        8192,
+        16384,
+        16384
+      ],
+      "pass_id": 0,
+      "weights_source": "synthetic:seeded uint8 MXFP4 weights and E8M0 scales",
+      "seed": 20302076,
+      "input_dtype": "bfloat16",
+      "output_dtype": "bfloat16",
+      "backend": {
+        "w4a4_emulation": "EmulationMxfp4LinearKernel",
+        "w4a8_flydsl": "Rdna4Mxfp4LinearKernel"
+      },
+      "activation_schemes": {
+        "w4a4_emulation": "dynamic_mxfp4 checkpoint scheme",
+        "w4a8_flydsl": "dynamic per-token fp8_e4m3"
+      },
+      "flydsl_runtime_selection": {
+        "cache_policy": "rotating (vLLM integration hardcodes this)",
+        "config": {
+          "cache_group_m": 2,
+          "engine": "hybrid",
+          "epilogue_prefetch": false,
+          "operand_prefetch": 2,
+          "operand_schedule": "barrier",
+          "schedule": "barrier",
+          "stages": 2,
+          "table_mode": "lut",
+          "tile_k": 128,
+          "tile_m": 256,
+          "tile_n": 128,
+          "waves_m": 4,
+          "waves_n": 2
+        }
+      },
+      "correctness": {
+        "w4a4_emulation_own_ref_relative_rms": 0.0,
+        "w4a8_flydsl_own_ref_relative_rms": 0.0,
+        "cross_backend_relative_rms": 0.11464390158653259,
+        "cross_backend_max_abs": 1104.0
+      },
+      "timings": {
+        "regimes": {
+          "w4a4_emulation": {
+            "hot": {
+              "samples_us": [
+                40746.50573730469,
+                40741.52374267578,
+                40859.84802246094,
+                40706.485748291016,
+                40828.22799682617,
+                40890.968322753906,
+                40916.969299316406,
+                40819.5686340332,
+                40838.30642700195,
+                40872.947692871094,
+                40915.46630859375,
+                40953.468322753906,
+                40918.209075927734,
+                40904.60968017578,
+                40842.84973144531,
+                40847.86605834961
+              ],
+              "median_us": 40853.85704040527
+            },
+            "rotating": {
+              "samples_us": [
+                39954.99038696289,
+                39860.992431640625,
+                40378.95965576172,
+                39717.39196777344,
+                40203.31954956055,
+                39761.79122924805,
+                40181.800842285156,
+                39860.27145385742,
+                39982.19680786133,
+                40230.64041137695,
+                40396.8391418457,
+                39985.755920410156,
+                40341.758728027344,
+                40300.31967163086,
+                39885.63537597656,
+                40315.4411315918
+              ],
+              "median_us": 40083.778381347656
+            }
+          },
+          "w4a8_flydsl": {
+            "hot": {
+              "samples_us": [
+                20080.217361450195,
+                20130.239486694336,
+                20179.23927307129,
+                20204.79965209961,
+                20196.680068969727,
+                20247.119903564453,
+                19973.995208740234,
+                20154.560089111328,
+                20227.479934692383,
+                20163.000106811523,
+                20109.119415283203,
+                20126.699447631836,
+                20149.999618530273,
+                20148.89907836914,
+                20353.363037109375,
+                20281.421661376953
+              ],
+              "median_us": 20158.780097961426
+            },
+            "rotating": {
+              "samples_us": [
+                18529.57534790039,
+                19775.91323852539,
+                19781.633377075195,
+                19813.4765625,
+                19742.433547973633,
+                19831.51626586914,
+                19821.996688842773,
+                19658.992767333984,
+                19699.91111755371,
+                19431.270599365234,
+                19855.756759643555,
+                18766.740798950195,
+                19186.307907104492,
+                19697.03483581543,
+                19583.232879638672,
+                19697.27325439453
+              ],
+              "median_us": 19698.59218597412
+            }
+          }
+        },
+        "graph_changed_input_relative_rms": {
+          "w4a4_emulation": 0.0,
+          "w4a8_flydsl": 0.0
+        },
+        "cold_protocol": "read_evicted_weights_warm_activations"
+      },
+      "status": "ok"
+    },
+    {
+      "shape_mnk": [
+        1,
+        17408,
+        5120
+      ],
+      "pass_id": 0,
+      "weights_source": "synthetic:seeded uint8 MXFP4 weights and E8M0 scales",
+      "seed": 20283645,
+      "input_dtype": "bfloat16",
+      "output_dtype": "bfloat16",
+      "backend": {
+        "w4a4_emulation": "EmulationMxfp4LinearKernel",
+        "w4a8_flydsl": "Rdna4Mxfp4LinearKernel"
+      },
+      "activation_schemes": {
+        "w4a4_emulation": "dynamic_mxfp4 checkpoint scheme",
+        "w4a8_flydsl": "dynamic per-token fp8_e4m3"
+      },
+      "flydsl_runtime_selection": {
+        "cache_policy": "rotating (vLLM integration hardcodes this)",
+        "config": {
+          "engine": "register",
+          "fast_epilogue": true,
+          "k_unroll": 8,
+          "repeat_m": 1,
+          "repeat_n": 1,
+          "table_mode": "alu",
+          "waves_m": 1,
+          "waves_n": 4
+        }
+      },
+      "correctness": {
+        "w4a4_emulation_own_ref_relative_rms": 0.0,
+        "w4a8_flydsl_own_ref_relative_rms": 0.0,
+        "cross_backend_relative_rms": 0.11589038372039795,
+        "cross_backend_max_abs": 484.0
+      },
+      "timings": {
+        "regimes": {
+          "w4a4_emulation": {
+            "hot": {
+              "samples_us": [
+                758.6506009101868,
+                757.1654915809631,
+                757.0804953575134,
+                755.3455233573914,
+                758.380651473999,
+                756.3905119895935,
+                757.1356296539307,
+                757.1654915809631,
+                754.5604705810547,
+                754.6355128288269,
+                755.8104991912842,
+                755.9055089950562,
+                757.2355270385742,
+                757.0555210113525,
+                755.8454871177673,
+                755.0355195999146
+              ],
+              "median_us": 756.723016500473
+            },
+            "rotating": {
+              "samples_us": [
+                764.9710178375244,
+                760.5310082435608,
+                765.1299834251404,
+                769.8910236358643,
+                765.8910155296326,
+                761.3710165023804,
+                750.5300045013428,
+                752.6509761810303,
+                762.1300220489502,
+                758.0909729003906,
+                750.8509755134583,
+                760.4100108146667,
+                762.0499730110168,
+                757.5309872627258,
+                753.2110214233398,
+                754.1700005531311
+              ],
+              "median_us": 760.4705095291138
+            }
+          },
+          "w4a8_flydsl": {
+            "hot": {
+              "samples_us": [
+                32.01049938797951,
+                32.14050084352493,
+                32.03537315130234,
+                32.070375978946686,
+                31.865373253822327,
+                32.070375978946686,
+                32.09037333726883,
+                31.96537494659424,
+                32.04549849033356,
+                32.15549886226654,
+                32.15549886226654,
+                31.79049864411354,
+                32.140374183654785,
+                31.990498304367065,
+                32.01037645339966,
+                31.87049925327301
+              ],
+              "median_us": 32.04043582081795
+            },
+            "rotating": {
+              "samples_us": [
+                86.68100088834763,
+                86.80099993944168,
+                86.96100115776062,
+                86.88099682331085,
+                86.44100278615952,
+                86.80199831724167,
+                87.0010033249855,
+                87.0010033249855,
+                87.5609964132309,
+                86.4809975028038,
+                87.40100264549255,
+                87.60099858045578,
+                86.88099682331085,
+                87.20099925994873,
+                87.12100237607956,
+                86.44100278615952
+              ],
+              "median_us": 86.92099899053574
+            }
+          }
+        },
+        "graph_changed_input_relative_rms": {
+          "w4a4_emulation": 0.0,
+          "w4a8_flydsl": 0.0
+        },
+        "cold_protocol": "read_evicted_weights_warm_activations"
+      },
+      "status": "ok"
+    }
+  ],
+  "execution_environment": {
+    "python_executable": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+    "rocm_path": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel",
+    "compiler": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/x86_64-conda-linux-gnu-c++",
+    "path": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/bin:/home/ellm/.codex/packages/app-server-daemon/releases/0.169.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.pixi/bin:/home/ellm/.pixi/bin:/home/ellm/.codex/tmp/arg0-linux/codex-arg0y5JtI7:/home/ellm/.codex/packages/app-server-daemon/releases/0.169.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0yXcAXa:/home/ellm/.codex/packages/app-server-daemon/releases/0.168.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0In7g0R:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.2-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0575ayv:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.1-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0bQgg5A:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0PTTcq6:/home/ellm/.codex/packages/app-server-daemon/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0w6IWGD:/home/ellm/.codex/packages/app-server-daemon/releases/0.165.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0T9vrBF:/home/ellm/.codex/packages/app-server-daemon/releases/0.164.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0dNO8GX:/home/ellm/.codex/packages/standalone/releases/0.164.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.pixi/bin:/home/ellm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ellm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ellm/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/bin/remote-cli:/home/ellm/.pixi/bin:/home/ellm/.pixi/bin:/home/ellm/.deno/bin:/home/ellm/.nvm/versions/node/v24.14.1/bin:/home/ellm/.local/bin:/home/ellm/bin:/usr/local/bin:/usr/bin:/home/ellm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts",
+    "pythonpath": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/python:/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review:/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/share/amd_smi",
+    "flydsl_gpu_arch": "gfx1201",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VLLM_MXFP4_EMULATION_DEQUANT_AT_LOAD": "false (default; unset)",
+    "namespace_adapter": "flydsl.kernels -> FlyDSL-pr1374-review/kernels; flydsl root package loaded from FlyDSL-pr1374-review/python/flydsl"
+  },
+  "timing_protocol_note": "Preflight timing samples are protocol-debug output from before the final timing-loop cleanup; the run synchronized between cache-conditioning and measured replay. The current harness queues conditioning and measured replay back-to-back on one stream and synchronizes after measurement."
+}

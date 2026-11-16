@@ -1,0 +1,11 @@
+{
+  "torch": "2.13.0+rocm10.0.0",
+  "amd-quark": "0.12.post1",
+  "vllm": "0.1.dev22580+g19c5e8318.rocm100",
+  "flydsl": "0.3.4.1",
+  "rocm": "10.0.0",
+  "rocm-sdk": "no_distribution_metadata",
+  "triton": "3.8.0+git4cff872c.rocm10.0.0",
+  "ninja": "1.13.2",
+  "note": "Distribution metadata only. FlyDSL and vLLM Python sources are overridden by explicit PYTHONPATH; source commit and loaded module paths in provenance/preflight/full run records are authoritative. Installed flydsl wheel metadata is not the benchmark runtime identity."
+}

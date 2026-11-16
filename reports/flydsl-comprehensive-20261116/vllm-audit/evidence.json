@@ -1,0 +1,199 @@
+{
+  "audit_date": "2026-11-16",
+  "scope": "Read-only source and checkpoint metadata audit plus an isolated synthetic GPU1 layer-level preflight; no full-model inference and no complete checkpoint weights loaded.",
+  "repositories": {
+    "vllm": {
+      "path": "vllm-flydsl-mxfp4-rdna4",
+      "head": "3c138b588506cf2196e5f183d3fe893d973ec2e3",
+      "head_date": "2026-11-06",
+      "dispatch_change_commit": "4816c7b43f52a09efd09409e6a023b5dd31579f5",
+      "dispatch_change_parent": "d7e4a5313cdfaf2ef3a22a177e51d68a1a823386"
+    },
+    "flydsl": {
+      "path": "FlyDSL-pr1374-review",
+      "head": "3ed2ca5f68ecc2fd972cb23d4da366364e91d261"
+    }
+  },
+  "checkpoint": {
+    "repo_id": "amd/Qwen3.8-27B-Quark-AWQ-MXFP4",
+    "cached_repo_revision": "93245f7c00f1a8964b66a97c6e02e2fd09080be4",
+    "config_blob": "/home/ellm/.cache/huggingface/hub/models--amd--Qwen3.8-27B-Quark-AWQ-MXFP4/blobs/ff52c307cbbe08541d7aa996409789ee08aa1b75",
+    "config_sha256": "4a139d3e01df039e17b4c8b8362f7944674d76051a8cd96f213c6bc332d69f55",
+    "model_card_blob": "/home/ellm/.cache/huggingface/hub/models--amd--Qwen3.8-27B-Quark-AWQ-MXFP4/blobs/ce7d01ac6a6e44b57ff5c35da2df3eda3564b8a7",
+    "model_card_sha256": "acfbd8c9a14c5b69fee7cedc38c05c509b9db9b9e4dc52ea508929edb17ddaaa",
+    "observed_metadata": {
+      "quant_method": "quark",
+      "weight_dtype": "fp4",
+      "weight_qscheme": "per_group",
+      "weight_group_size": 32,
+      "weight_scale_format": "e8m0",
+      "weight_is_dynamic": false,
+      "activation_dtype": "fp4",
+      "activation_qscheme": "per_group",
+      "activation_group_size": 32,
+      "activation_scale_format": "e8m0",
+      "activation_is_dynamic": true,
+      "text_hidden_size": 5120,
+      "text_intermediate_size": 17408,
+      "text_num_hidden_layers": 64,
+      "text_num_experts_field": null,
+      "vision_excluded_from_quantization": true
+    }
+  },
+  "dispatch_conclusions": {
+    "pre_4816_default_on_gfx1201": "Quark maps the checkpoint's MXFP4 weight + dynamic MXFP4 activation to kMxfp4Static x kMxfp4Dynamic. The earlier ordered candidates cannot implement that scheme on RDNA4: FlyDSL accepts only FP8 activations; RDNA3 W4A8 is restricted to gfx1100; AITER needs native-MX support and accepts MXFP4 dynamic activations. With amd-quark present, selection therefore reaches EmulationMxfp4LinearKernel (W4A4 QDQ + BF16/FP16 F.linear).",
+    "post_4816_default_on_gfx1201_with_flydsl": "For the RDNA4 FlyDSL candidate only, when checkpoint activation is None or MXFP4 dynamic and no explicit activation override was supplied, selector substitutes per-token FP8. That gives MXFP4 weights x FP8 activations (W4A8), then chooses FlyDSL if ROCm gfx1200/gfx1201 and the FlyDSL kernel module are available.",
+    "dense_or_moe": "The audited Qwen3.8-27B text config has no num_experts field and its card describes decoder linears; this is the dense-linear path, not an MoE expert GEMM. It is a multimodal model; vision layers are listed in quantization excludes."
+  },
+  "source_refs": [
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/AGENTS.md",
+      "lines": "1-90",
+      "fact": "Applicable vLLM instructions read; no production files edited."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/layers/quantization/utils/ocp_mx_utils.py",
+      "lines": "21-35, 100-130",
+      "fact": "Checkpoint dtype names map fp4 weights to kMxfp4Static and dynamic fp4 activations to kMxfp4Dynamic."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/layers/quantization/quark/quark.py",
+      "lines": "838-883, 884-960",
+      "fact": "Global config is fallback; OCP MX config resolves to QuarkOCP_MX and passes both keys to kernel selection."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/layers/quantization/quark/schemes/quark_ocp_mx.py",
+      "lines": "50-77, 240-243",
+      "fact": "Scheme preserves mapped MXFP4 keys and initializes the shared MXFP4 kernel."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/__init__.py",
+      "lines": "634-652, 1044-1123",
+      "fact": "ROCm candidate order and activation/backend selection; commit 4816 adds per-token FP8 substitution for RDNA4 candidate."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/mxfp4/flydsl.py",
+      "lines": "156-198, 200-288",
+      "fact": "FlyDSL support gates to ROCm gfx1200/gfx1201 and FP8; prepare weights and apply per-token FP8 quant plus fused GEMM."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/mxfp4/emulation.py",
+      "lines": "36-53, 56-149",
+      "fact": "Emulation activation QDQ table includes MXFP4 dynamic; dequantizes weights and calls F.linear, optionally once at load."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/mxfp4/rdna3_hip.py",
+      "lines": "1-1",
+      "fact": "Use class is_supported implementation in source; verify gfx1100 gate before benchmark."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/mxfp4/aiter.py",
+      "lines": "1-1",
+      "fact": "Use class is_supported/can_implement implementation in source; native MX and dynamic MXFP4 activation are required."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/__init__.py at d7e4a5313cdfaf2ef3a22a177e51d68a1a823386",
+      "lines": "634-652, 1064-1120",
+      "fact": "Immediately preceding dispatch selector; the checkpoint A4 activation was passed unchanged to candidates."
+    },
+    {
+      "path": "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/entrypoint.py",
+      "lines": "115-189, 285-370",
+      "fact": "Preparation validates/pads/reorders packed FP4 and scales; lossless scale-fold choice; runtime API and GEMM launch."
+    },
+    {
+      "path": "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/common.py",
+      "lines": "48-97",
+      "fact": "Packed FP4 nibble decoding and exponent/magnitude-to-FP8 representation."
+    },
+    {
+      "path": "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/register.py",
+      "lines": "133-207, 210-223",
+      "fact": "Register path decodes packed FP4 to E4M3/E5M2 operand fragments, WMMA GEMMs, applies weight/input scales, outputs requested dtype."
+    },
+    {
+      "path": "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/hybrid.py",
+      "lines": "200-247, 310-330",
+      "fact": "Hybrid path decodes weight tiles to FP8 in LDS, runs WMMA, applies scale and FP8 activation scale in epilogue."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/config/quantization.py",
+      "lines": "42-58, 106-127",
+      "fact": "User config spellings include mxfp4, fp8_per_token; activation override can be explicit."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/tests/kernels/quantization/test_rocm_mxfp4.py",
+      "lines": "735-778, 781-790",
+      "fact": "Existing layer construction/test pattern forces backend via VllmConfig and checks dynamic FP8 against emulation."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/config/kernel.py",
+      "lines": "390-407",
+      "fact": "Backend descriptions distinguish RDNA4 FlyDSL FP8 from slow emulation."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/layers/quantization/utils/mxfp4_utils.py",
+      "lines": "175-184",
+      "fact": "MXFP4 dequant helper imports Quark and documents package dependency."
+    },
+    {
+      "path": "vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/__init__.py",
+      "lines": "1064-1118",
+      "fact": "Current runtime selector resolves checkpoint MXFP4 activation and substitutes per-token FP8 for the RDNA4 candidate; the preflight invoked this actual selector."
+    },
+    {
+      "path": ".venv/lib/python3.12/site-packages/quark/torch/kernel/hw_emulation/csrc/mxfp4/fake.hip",
+      "lines": "35-50",
+      "fact": "MXFP4 QDQ kernel rejects activation tensors whose total element count is not divisible by 64."
+    },
+    {
+      "path": ".venv/lib/python3.12/site-packages/quark/torch/kernel/hw_emulation/csrc/mxfp4/dequantize.hip",
+      "lines": "35-58",
+      "fact": "MXFP4 weight dequantization requires output numel divisible by OUTPUTS_PER_THREAD*64=512."
+    },
+    {
+      "path": "reports/flydsl-comprehensive-20261116/vllm-audit/bench_mxfp4_pair.py",
+      "lines": "120-151, 450-620",
+      "fact": "Benchmark-only harness uses actual vLLM selector/apply_weights, records unsupported W4A4 paths as FlyDSL-only, and excludes weight prep from timed region."
+    }
+  ],
+  "constraints_for_matched_layer_benchmark": [
+    "Force mxfp4 -> emulation for the baseline and leave checkpoint MXFP4 dynamic activation intact; force mxfp4 -> flydsl for the candidate and pass fp8_per_token explicitly (or verify the auto RDNA4 substitution log).",
+    "Build two independent layer instances from the same quantized packed weight/scales and same bias, since FlyDSL post-load preshuffles/replaces weights while emulation retains or dequantizes them.",
+    "Use identical BF16 input samples and layer N,K and token count M for both arms. Time apply_weights end-to-end for layer cost; separately time GEMM-only if useful, since both arms have activation quantization costs and those costs differ.",
+    "Warm compilation and allocator paths before timing; exclude load-time processing/weight preparation from steady-state latency. Synchronize with HIP events or use equivalent graph replay for small decode M. Report M values, dtype, TP-sharded N/K, warm/cold cache protocol, repeats and percentile/median.",
+    "Compare each arm to its own arithmetic reference. Outputs are not expected to match exactly across W4A4 and W4A8 activation quantization; report output error between them separately. Keep output dtype, input tensor, weight checkpoint, TP partition, bias, and graph mode fixed.",
+    "FlyDSL supports gfx1200/gfx1201 ROCm with installed flydsl.kernels.gemm.rdna4_mxfp4, packed [N,K/2] uint8 weights, [N,K/32] uint8 E8M0 scales, K multiple of 32 and positive N/K; kernel output is BF16 or FP16. Selector backend constraints and exact model layer partition still need run-time confirmation.",
+    "The `VLLM_MXFP4_EMULATION_DEQUANT_AT_LOAD` environment setting changes baseline timing/memory semantics; leave it unset/false to test the default per-call dequant path, or report it explicitly as a separate arm.",
+    "Do not treat the FlyDSL native FP8-vs-FP8 kernel microbenchmark as a matched W4A4 serving comparison; it excludes FP4 and activation quantization differences.",
+    "The installed Quark emulation QDQ implementation additionally requires M*K divisible by 64, and its weight-decode implementation requires N*K divisible by 512. Shapes failing either must remain explicit emulation-unsupported rows; benchmark FlyDSL alone for those and do not report a W4A4-vs-W4A8 speedup.",
+    "The harness CPU-reference path decodes sampled packed E2M1 weights with an independent OCP lookup table, quantizes the full activation tensor before sampling rows, validates each backend against its own quantization reference, and reports cross-backend error separately.",
+    "The GPU1 preflight used synthetic packed weights, including the cached checkpoint layer dimensions N=17408,K=5120; it did not load the cached checkpoint tensor. The real layer can be requested with --weights and --weight-key for a separate run."
+  ],
+  "runtime_preflight": {
+    "result_file": "preflight-gpu1.json",
+    "provenance_file": "preflight-provenance.json",
+    "gpu": 1,
+    "selector_observation": "The current init_mxfp4_linear_kernel selector, called with kMxfp4Dynamic, selected EmulationMxfp4LinearKernel under an explicit emulation backend and Rdna4Mxfp4LinearKernel under gfx1201 auto dispatch; the latter config carries kFp8DynamicTokenSym. This validates current selector behavior, not execution of the historical pre-FlyDSL server build.",
+    "coverage": "8 shapes: 6 matched W4A4/W4A8 pairs passed own-reference checks, including valid odd-N tail [73,513,4096] and largest manifest shape [8192,16384,16384]; 2 expected unsupported W4A4 cases ran FlyDSL-only and passed own-reference checks.",
+    "synthetic_only": true,
+    "paired_correctness": "All sampled W4A4/W4A8 own-reference relative RMS values were 0.0 in this preflight; cross-backend RMS differs because activation quantization differs.",
+    "preflight_notes": "Full results and medians are in preflight-gpu1.json. Shapes [1,16,32] (M*K=32) and [8,7,160] (N*K=1120) fail Quark emulation's shape constraints and have FlyDSL-only records; do not compute paired speedup for these."
+  },
+  "parent_historical_aiter_and_arch_gates_verified": [
+    {
+      "commit": "335dd77b09161c5d63139b4e7ae51bb9928305b1",
+      "file": "vllm/model_executor/kernels/linear/mxfp4/aiter.py",
+      "line": 170,
+      "excerpt": "        if not current_platform.supports_mx():\n            return False, \"current platform does not support native MXFP4 computation\"\n",
+      "git_blob_contents_sha256": "643386f8a2e551211738f58bb0fb2013eb5c6bb41c73f30fc810a1253ee1b6b4"
+    },
+    {
+      "commit": "335dd77b09161c5d63139b4e7ae51bb9928305b1",
+      "file": "vllm/platforms/rocm.py",
+      "line": 1254,
+      "excerpt": "    def supports_mx(cls) -> bool:\n        return any(gfx in _GCN_ARCH for gfx in [\"gfx95\", \"gfx1250\"])\n",
+      "git_blob_contents_sha256": "c3aabca304fc1ea1332ef67bb1a18fa3a575c6c6218c8c04428972615ac09c40"
+    }
+  ]
+}

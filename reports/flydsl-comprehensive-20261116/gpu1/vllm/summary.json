@@ -1,0 +1,29 @@
+{
+  "gpu": 1,
+  "runner_exit_code": 0,
+  "expected_batches": 51,
+  "batch_status_counts": {
+    "success": 51
+  },
+  "batch_counts_by_pass": {
+    "1": {
+      "success": 17
+    },
+    "2": {
+      "success": 17
+    },
+    "3": {
+      "success": 17
+    }
+  },
+  "total_rows": 3102,
+  "successful_rows": 3102,
+  "emulation_unsupported_flydsl_rows": 1131,
+  "output_gpu_ids": [
+    1
+  ],
+  "validation_errors": [],
+  "batch_wall_time_seconds": 2173.6992847919464,
+  "status_files": 51,
+  "smoke_batch_included": "pass1-gpu1-batch07.status.json"
+}

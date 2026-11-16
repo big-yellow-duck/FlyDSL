@@ -1,0 +1,14 @@
+GPU: 0
+    PROCESS_INFO:
+        NAME: python
+        PID: 3425443
+        MEMORY_USAGE:
+            GTT_MEM: 7.9 MB
+            CPU_MEM: 0.0 B
+            VRAM_MEM: 139.2 MB
+        MEM_USAGE: 200.7 MB
+        USAGE:
+            GFX: 0 ns
+            ENC: 0 ns
+        CU_OCCUPANCY: N/A
+

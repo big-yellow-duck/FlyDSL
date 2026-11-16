@@ -1,0 +1,34 @@
+{
+  "execution_environment": {
+    "python_executable": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+    "rocm_path": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel",
+    "compiler": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/x86_64-conda-linux-gnu-c++",
+    "path": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/bin:/home/ellm/.codex/packages/app-server-daemon/releases/0.169.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.pixi/bin:/home/ellm/.pixi/bin:/home/ellm/.codex/tmp/arg0-linux/codex-arg0y5JtI7:/home/ellm/.codex/packages/app-server-daemon/releases/0.169.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0yXcAXa:/home/ellm/.codex/packages/app-server-daemon/releases/0.168.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0In7g0R:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.2-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0575ayv:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.1-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0bQgg5A:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0PTTcq6:/home/ellm/.codex/packages/app-server-daemon/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0w6IWGD:/home/ellm/.codex/packages/app-server-daemon/releases/0.165.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0T9vrBF:/home/ellm/.codex/packages/app-server-daemon/releases/0.164.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0dNO8GX:/home/ellm/.codex/packages/standalone/releases/0.164.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.pixi/bin:/home/ellm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ellm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ellm/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/bin/remote-cli:/home/ellm/.pixi/bin:/home/ellm/.pixi/bin:/home/ellm/.deno/bin:/home/ellm/.nvm/versions/node/v24.14.1/bin:/home/ellm/.local/bin:/home/ellm/bin:/usr/local/bin:/usr/bin:/home/ellm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts",
+    "pythonpath": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/python:/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review:/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/share/amd_smi",
+    "flydsl_gpu_arch": "gfx1201",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VLLM_MXFP4_EMULATION_DEQUANT_AT_LOAD": "false (default; unset)",
+    "namespace_adapter": "flydsl.kernels -> FlyDSL-pr1374-review/kernels; flydsl root package loaded from FlyDSL-pr1374-review/python/flydsl"
+  },
+  "command": "$ROOT/.venv/bin/python reports/flydsl-comprehensive-20261116/vllm-audit/bench_mxfp4_pair.py --shape-manifest reports/flydsl-comprehensive-20261116/vllm-audit/preflight-shapes-gpu1.json --gpu 1 --rounds 16 --flush-mib 256 --pass-id 0 --output reports/flydsl-comprehensive-20261116/vllm-audit/preflight-gpu1.json",
+  "shape_manifest": "preflight-shapes-gpu1.json",
+  "results_file": "preflight-gpu1.json",
+  "result_statuses": {
+    "(8, 7, 160)": "emulation_unsupported_flydsl_ok",
+    "(1, 16, 32)": "emulation_unsupported_flydsl_ok",
+    "(1, 16, 64)": "ok",
+    "(17, 48, 192)": "ok",
+    "(73, 512, 1088)": "ok",
+    "(73, 513, 4096)": "ok",
+    "(8192, 16384, 16384)": "ok",
+    "(1, 17408, 5120)": "ok"
+  },
+  "quark_runtime_constraints": {
+    "activation_qdq_numel_multiple": 64,
+    "weight_dequant_output_numel_multiple": 512
+  },
+  "scope": "Synthetic packed weights and BF16 activations; matched vLLM apply_weights calls; no checkpoint tensor or full model forward. GPU1 isolated preflight only; no GPU benchmark after preflight.",
+  "timing_protocol_note": "Preflight timings are protocol-debug output from before the final timing-loop cleanup: the preflight synchronized between cache-conditioning and measured replay. The current harness queues conditioning and measured graph back-to-back on the same stream and synchronizes after measurement; use current harness for full sweep timings. Dispatch, shape-rejection, correctness, and graph-replay evidence from the preflight are unaffected."
+}

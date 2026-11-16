@@ -1,0 +1,12 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0
+rootdir: /home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/tests
+configfile: pytest.ini
+plugins: platformdirs-4.12.3, anyio-4.15.1, asyncio-1.4.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 106 items
+
+tests/kernels/test_rdna4_mxfp4.py .........................sssss........ [ 35%]
+................................sssss...............................     [100%]
+
+======================== 96 passed, 10 skipped in 8.93s ========================

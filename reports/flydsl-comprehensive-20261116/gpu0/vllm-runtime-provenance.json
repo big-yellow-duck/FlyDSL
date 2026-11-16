@@ -1,0 +1,64 @@
+{
+  "environment": {
+    "ROCM_PATH": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel",
+    "FLYDSL_GPU_ARCH": "gfx1201",
+    "PYTHONPATH": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/python:/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review:/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/share/amd_smi",
+    "VLLM_MXFP4_EMULATION_DEQUANT_AT_LOAD": "0",
+    "PYTORCH_ROCM_ARCH": "gfx1201",
+    "MAX_JOBS": "4",
+    "CXX": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/x86_64-conda-linux-gnu-c++",
+    "PATH": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/bin:/home/ellm/.codex/packages/app-server-daemon/releases/0.169.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.pixi/bin:/home/ellm/.pixi/bin:/home/ellm/.codex/tmp/arg0-linux/codex-arg0y5JtI7:/home/ellm/.codex/packages/app-server-daemon/releases/0.169.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0yXcAXa:/home/ellm/.codex/packages/app-server-daemon/releases/0.168.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0In7g0R:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.2-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0575ayv:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.1-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0bQgg5A:/home/ellm/.codex/packages/app-server-daemon/releases/0.167.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0PTTcq6:/home/ellm/.codex/packages/app-server-daemon/releases/0.166.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0w6IWGD:/home/ellm/.codex/packages/app-server-daemon/releases/0.165.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0T9vrBF:/home/ellm/.codex/packages/app-server-daemon/releases/0.164.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.codex/tmp/arg0-linux/codex-arg0dNO8GX:/home/ellm/.codex/packages/standalone/releases/0.164.0-x86_64-unknown-linux-musl/codex-path:/home/ellm/.pixi/bin:/home/ellm/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/ellm/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/ellm/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/bin/remote-cli:/home/ellm/.pixi/bin:/home/ellm/.pixi/bin:/home/ellm/.deno/bin:/home/ellm/.nvm/versions/node/v24.14.1/bin:/home/ellm/.local/bin:/home/ellm/bin:/usr/local/bin:/usr/bin:/home/ellm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  },
+  "sys_executable": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+  "sys_path": [
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu0",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/python",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/share/amd_smi",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/lib/python312.zip",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/lib/python3.12",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/lib/python3.12/lib-dynload",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/lib/python3.12/site-packages",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/aiter",
+    "__editable__.vllm-0.1.dev22580+g19c5e8318.rocm100.finder.__path_hook__",
+    "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/lib/python3.12/site-packages/setuptools/_vendor"
+  ],
+  "modules": [
+    {
+      "name": "vllm",
+      "file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4/vllm/__init__.py",
+      "resolved_file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4/vllm/__init__.py",
+      "sha256": "087e15875e49ba50f4969c2229d450bb8397302ea9344b3a3bd06ee400263ebd",
+      "error": null
+    },
+    {
+      "name": "vllm._custom_ops",
+      "file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4/vllm/_custom_ops.py",
+      "resolved_file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4/vllm/_custom_ops.py",
+      "sha256": "4e7f6fbfe751e30143ff75eceea680c5ef49b4490460cf0a029c118f987dc612",
+      "error": null
+    },
+    {
+      "name": "vllm.model_executor.kernels.linear.mxfp4.emulation",
+      "file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/mxfp4/emulation.py",
+      "resolved_file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/mxfp4/emulation.py",
+      "sha256": "5caeeec03fc9f0aa0ab2e1fc5547fe044f2d3be1ee86cebcde608fb054a830fa",
+      "error": null
+    },
+    {
+      "name": "vllm.model_executor.kernels.linear.mxfp4.flydsl",
+      "file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/mxfp4/flydsl.py",
+      "resolved_file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-flydsl-mxfp4-rdna4/vllm/model_executor/kernels/linear/mxfp4/flydsl.py",
+      "sha256": "5e5bfe72fd9df171da341fcd47107edaca947729143a9c3844735571ffeccc37",
+      "error": null
+    },
+    {
+      "name": "vllm._C",
+      "file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/vllm-triton-fp8-per-token-pr/vllm/_C.abi3.so",
+      "resolved_file": "/home/ellm/jeff/rocm_workspaces/10/gfx1201-archive/vllm-sources-20261013/vllm/vllm/_C.abi3.so",
+      "sha256": "12b9a06484bb47e5aaf2bdb9fc66a0685871da6d7bd29d7f84e88208b22e591e",
+      "error": null
+    }
+  ]
+}

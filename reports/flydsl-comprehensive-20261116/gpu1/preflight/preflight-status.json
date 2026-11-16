@@ -1,0 +1,214 @@
+{
+  "physical_gpu": 1,
+  "visible_devices": "both GPUs visible; benchmark uses --gpu 1",
+  "rocm_path": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel",
+  "pythonpath": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/python:/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/share/amd_smi",
+  "cases": [
+    {
+      "name": "native_m1_n16_k32",
+      "shape": [
+        1,
+        16,
+        32
+      ],
+      "native_fp8": true,
+      "command": [
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/tests/perf/bench_rdna4_mxfp4.py",
+        "--native-fp8",
+        "--gpu",
+        "1",
+        "--m",
+        "1",
+        "--nk",
+        "16x32",
+        "--cache-policy",
+        "auto",
+        "--output",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m1_n16_k32.json"
+      ],
+      "output": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m1_n16_k32.json",
+      "log": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m1_n16_k32.log",
+      "exit_code": 0,
+      "elapsed_seconds": 5.978,
+      "json_exists": true,
+      "rows": 2,
+      "configs": [
+        "register",
+        "torch_fp8"
+      ],
+      "relative_rms_samples_passed": true
+    },
+    {
+      "name": "native_m17_n48_k160",
+      "shape": [
+        17,
+        48,
+        160
+      ],
+      "native_fp8": true,
+      "command": [
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/tests/perf/bench_rdna4_mxfp4.py",
+        "--native-fp8",
+        "--gpu",
+        "1",
+        "--m",
+        "17",
+        "--nk",
+        "48x160",
+        "--cache-policy",
+        "auto",
+        "--output",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m17_n48_k160.json"
+      ],
+      "output": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m17_n48_k160.json",
+      "log": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m17_n48_k160.log",
+      "exit_code": 0,
+      "elapsed_seconds": 5.328,
+      "json_exists": true,
+      "rows": 2,
+      "configs": [
+        "register",
+        "torch_fp8"
+      ],
+      "relative_rms_samples_passed": true
+    },
+    {
+      "name": "native_m73_n528_k1120",
+      "shape": [
+        73,
+        528,
+        1120
+      ],
+      "native_fp8": true,
+      "command": [
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/tests/perf/bench_rdna4_mxfp4.py",
+        "--native-fp8",
+        "--gpu",
+        "1",
+        "--m",
+        "73",
+        "--nk",
+        "528x1120",
+        "--cache-policy",
+        "auto",
+        "--output",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m73_n528_k1120.json"
+      ],
+      "output": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m73_n528_k1120.json",
+      "log": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m73_n528_k1120.log",
+      "exit_code": 0,
+      "elapsed_seconds": 5.317,
+      "json_exists": true,
+      "rows": 2,
+      "configs": [
+        "register",
+        "torch_fp8"
+      ],
+      "relative_rms_samples_passed": true
+    },
+    {
+      "name": "native_m192_n2048_k8192",
+      "shape": [
+        192,
+        2048,
+        8192
+      ],
+      "native_fp8": true,
+      "command": [
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/tests/perf/bench_rdna4_mxfp4.py",
+        "--native-fp8",
+        "--gpu",
+        "1",
+        "--m",
+        "192",
+        "--nk",
+        "2048x8192",
+        "--cache-policy",
+        "auto",
+        "--output",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m192_n2048_k8192.json"
+      ],
+      "output": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m192_n2048_k8192.json",
+      "log": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/native_m192_n2048_k8192.log",
+      "exit_code": 0,
+      "elapsed_seconds": 5.453,
+      "json_exists": true,
+      "rows": 2,
+      "configs": [
+        "hybrid",
+        "torch_fp8"
+      ],
+      "relative_rms_samples_passed": true
+    },
+    {
+      "name": "mxfp4_tail_m1_n1_k32",
+      "shape": [
+        1,
+        1,
+        32
+      ],
+      "native_fp8": false,
+      "command": [
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/tests/perf/bench_rdna4_mxfp4.py",
+        "--gpu",
+        "1",
+        "--m",
+        "1",
+        "--nk",
+        "1x32",
+        "--cache-policy",
+        "auto",
+        "--output",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/mxfp4_tail_m1_n1_k32.json"
+      ],
+      "output": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/mxfp4_tail_m1_n1_k32.json",
+      "log": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/mxfp4_tail_m1_n1_k32.log",
+      "exit_code": 0,
+      "elapsed_seconds": 5.652,
+      "json_exists": true,
+      "rows": 1,
+      "configs": [
+        "register"
+      ],
+      "relative_rms_samples_passed": true
+    },
+    {
+      "name": "mxfp4_tail_m73_n513_k1120",
+      "shape": [
+        73,
+        513,
+        1120
+      ],
+      "native_fp8": false,
+      "command": [
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.venv/bin/python",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/tests/perf/bench_rdna4_mxfp4.py",
+        "--gpu",
+        "1",
+        "--m",
+        "73",
+        "--nk",
+        "513x1120",
+        "--cache-policy",
+        "auto",
+        "--output",
+        "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/mxfp4_tail_m73_n513_k1120.json"
+      ],
+      "output": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/mxfp4_tail_m73_n513_k1120.json",
+      "log": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/reports/flydsl-comprehensive-20261116/gpu1/preflight/mxfp4_tail_m73_n513_k1120.log",
+      "exit_code": 0,
+      "elapsed_seconds": 5.661,
+      "json_exists": true,
+      "rows": 1,
+      "configs": [
+        "register"
+      ],
+      "relative_rms_samples_passed": true
+    }
+  ]
+}

@@ -1,0 +1,2068 @@
+2026-11-16T14:38:37+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 0 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 35 W
+        GFX_VOLTAGE: 35 mV
+        SOC_VOLTAGE: 825 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 0 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 772 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1957 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 800 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 53 °C
+        HOTSPOT: 54 °C
+        MEM: 54 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2202
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 116 MB
+        FREE_VRAM: 32508 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 116 MB
+        FREE_VISIBLE_VRAM: 32508 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T14:39:56+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 3 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 23 W
+        GFX_VOLTAGE: 620 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 52 °C
+        HOTSPOT: 53 °C
+        MEM: 54 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2193
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 2877 MB
+        FREE_VRAM: 29747 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 2877 MB
+        FREE_VISIBLE_VRAM: 29747 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T14:41:12+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 0 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 18 W
+        GFX_VOLTAGE: 35 mV
+        SOC_VOLTAGE: 829 mV
+        MEM_VOLTAGE: 1249 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 0 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1957 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 54 °C
+        HOTSPOT: 55 °C
+        MEM: 56 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2195
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 116 MB
+        FREE_VRAM: 32508 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 116 MB
+        FREE_VISIBLE_VRAM: 32508 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T14:41:58+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 3 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 38 W
+        GFX_VOLTAGE: 590 mV
+        SOC_VOLTAGE: 825 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 772 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1410 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 800 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 54 °C
+        HOTSPOT: 56 °C
+        MEM: 56 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2194
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 676 MB
+        FREE_VRAM: 31948 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 676 MB
+        FREE_VISIBLE_VRAM: 31948 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T14:44:55+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 3 %
+        UMC_ACTIVITY: 1 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 25 W
+        GFX_VOLTAGE: 590 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 1746 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1957 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 54 °C
+        HOTSPOT: 56 °C
+        MEM: 56 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2229
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 2322 MB
+        FREE_VRAM: 30302 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 2322 MB
+        FREE_VISIBLE_VRAM: 30302 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T15:05:18+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 3 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 40 W
+        GFX_VOLTAGE: 621 mV
+        SOC_VOLTAGE: 825 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 772 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1410 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 800 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 52 °C
+        HOTSPOT: 53 °C
+        MEM: 54 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2193
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 2070 MB
+        FREE_VRAM: 30554 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 2070 MB
+        FREE_VISIBLE_VRAM: 30554 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T15:13:37+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 3 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 36 W
+        GFX_VOLTAGE: 619 mV
+        SOC_VOLTAGE: 824 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 456 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1957 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 480 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 54 °C
+        HOTSPOT: 55 °C
+        MEM: 56 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2201
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 598 MB
+        FREE_VRAM: 32026 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 598 MB
+        FREE_VISIBLE_VRAM: 32026 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T15:19:47+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 3 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 32 W
+        GFX_VOLTAGE: 589 mV
+        SOC_VOLTAGE: 824 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 456 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1020 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 480 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 55 °C
+        HOTSPOT: 56 °C
+        MEM: 56 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2197
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 549 MB
+        FREE_VRAM: 32075 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 549 MB
+        FREE_VISIBLE_VRAM: 32075 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T15:28:46+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 1 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 41 W
+        GFX_VOLTAGE: 960 mV
+        SOC_VOLTAGE: 824 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 1003 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 456 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 480 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 56 °C
+        HOTSPOT: 57 °C
+        MEM: 56 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2206
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 672 MB
+        FREE_VRAM: 31952 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 672 MB
+        FREE_VISIBLE_VRAM: 31952 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T15:41:12+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 3 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 23 W
+        GFX_VOLTAGE: 590 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 54 °C
+        HOTSPOT: 55 °C
+        MEM: 56 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2198
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 989 MB
+        FREE_VRAM: 31635 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 989 MB
+        FREE_VISIBLE_VRAM: 31635 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+
+2026-11-16T15:53:44+08:00
+GPU: 1
+    USAGE:
+        GFX_ACTIVITY: 100 %
+        UMC_ACTIVITY: 0 %
+        MM_ACTIVITY: 0 %
+        VCN_ACTIVITY: [0 %, N/A, N/A, N/A]
+        JPEG_ACTIVITY: [N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A]
+        GFX_BUSY_INST: N/A
+        JPEG_BUSY: N/A
+        VCN_BUSY: N/A
+    POWER:
+        SOCKET_POWER: 71 W
+        GFX_VOLTAGE: 1090 mV
+        SOC_VOLTAGE: 825 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 3274 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1957 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 1200 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+    TEMPERATURE:
+        EDGE: 58 °C
+        HOTSPOT: 62 °C
+        MEM: 58 °C
+    PCIE:
+        WIDTH: 16
+        SPEED: 2.5 GT/s
+        BANDWIDTH: N/A
+        REPLAY_COUNT: N/A
+        L0_TO_RECOVERY_COUNT: N/A
+        REPLAY_ROLL_OVER_COUNT: N/A
+        NAK_SENT_COUNT: N/A
+        NAK_RECEIVED_COUNT: N/A
+        CURRENT_BANDWIDTH_SENT: N/A
+        CURRENT_BANDWIDTH_RECEIVED: N/A
+        MAX_PACKET_SIZE: N/A
+        LC_PERF_OTHER_END_RECOVERY: N/A
+    ECC:
+        TOTAL_CORRECTABLE_COUNT: 0
+        TOTAL_UNCORRECTABLE_COUNT: 0
+        TOTAL_DEFERRED_COUNT: 0
+        CACHE_CORRECTABLE_COUNT: 0
+        CACHE_UNCORRECTABLE_COUNT: 0
+    ECC_BLOCKS:
+        UMC:
+            CORRECTABLE_COUNT: 0
+            UNCORRECTABLE_COUNT: 0
+            DEFERRED_COUNT: 0
+    FAN:
+        SPEED: 51
+        MAX: 255
+        RPM: 2214
+        USAGE: 20.0 %
+    VOLTAGE_CURVE:
+        POINT_0_FREQUENCY: N/A
+        POINT_0_VOLTAGE: N/A
+        POINT_1_FREQUENCY: N/A
+        POINT_1_VOLTAGE: N/A
+        POINT_2_FREQUENCY: N/A
+        POINT_2_VOLTAGE: N/A
+    OVERDRIVE: N/A
+    MEM_OVERDRIVE: N/A
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+    XGMI_ERR: N/A
+    VOLTAGE:
+        VDDBOARD: N/A
+    ENERGY:
+        TOTAL_ENERGY_CONSUMPTION: 0.0 J
+    MEM_USAGE:
+        TOTAL_VRAM: 32624 MB
+        USED_VRAM: 2001 MB
+        FREE_VRAM: 30623 MB
+        TOTAL_VISIBLE_VRAM: 32624 MB
+        USED_VISIBLE_VRAM: 2001 MB
+        FREE_VISIBLE_VRAM: 30623 MB
+        TOTAL_GTT: 128680 MB
+        USED_GTT: 14 MB
+        FREE_GTT: 128666 MB
+    THROTTLE:
+        ACCUMULATION_COUNTER: N/A
+        PROCHOT_ACCUMULATED: N/A
+        PPT_ACCUMULATED: N/A
+        SOCKET_THERMAL_ACCUMULATED: N/A
+        VR_THERMAL_ACCUMULATED: N/A
+        HBM_THERMAL_ACCUMULATED: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_ACCUMULATED: N/A
+        PROCHOT_VIOLATION_STATUS: N/A
+        PPT_VIOLATION_STATUS: N/A
+        SOCKET_THERMAL_VIOLATION_STATUS: N/A
+        VR_THERMAL_VIOLATION_STATUS: N/A
+        HBM_THERMAL_VIOLATION_STATUS: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_STATUS: N/A
+        PROCHOT_VIOLATION_ACTIVITY: N/A
+        PPT_VIOLATION_ACTIVITY: N/A
+        SOCKET_THERMAL_VIOLATION_ACTIVITY: N/A
+        VR_THERMAL_VIOLATION_ACTIVITY: N/A
+        HBM_THERMAL_VIOLATION_ACTIVITY: N/A
+        GFX_CLK_BELOW_HOST_LIMIT_VIOLATION_ACTIVITY: N/A
+

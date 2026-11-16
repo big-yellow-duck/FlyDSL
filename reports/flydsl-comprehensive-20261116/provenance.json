@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-11-16T06:39:24.272820+00:00",
+  "flydsl_commit": "3ed2ca5f68ecc2fd972cb23d4da366364e91d261",
+  "vllm_commit": "3c138b588506cf2196e5f183d3fe893d973ec2e3",
+  "native_runner_plan": "Two physical GPUs, balanced fixed partition by N/K-policy job; each paired comparison and all three passes for that job stay on one GPU. One measurement process per GPU. No clock/power settings changed.",
+  "host": "Linux-6.18.16-200.fc43.x86_64-x86_64-with-glibc2.42",
+  "source_sha256": {
+    "FlyDSL-pr1374-review/tests/perf/bench_rdna4_mxfp4.py": "2f24f54351c07378aa29760ebabeba9901b37d6f8bacd96379b113d5a67893cc",
+    "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/__init__.py": "d48c8f5c93a6f9dc4d61fed1f9d1ae8417b1c26a914ca0c25688f8ab601dede5",
+    "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/common.py": "60892d901b948b771f496fdf0a56613d6ca30cae2e14fa980ef3e28ea5b2619c",
+    "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/config_selector.py": "a556d09195c67f87caf894f4bb1e6b2b20c180f0fe2cf832d8fcc4eeaa1ca2d1",
+    "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/entrypoint.py": "1079ab6527d0b0b9b2763c18d17200aef0a02b7e8f68407a6bf09482a92923f7",
+    "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/hybrid.py": "729be83832e4594cefb040195b0df049996cd17f2fb79e197622bc67de0b5fac",
+    "FlyDSL-pr1374-review/kernels/gemm/rdna4_mxfp4/register.py": "04deaec34bc9b3814e96f8822e6e34b992a2318261f1f14b08585ca9c39a8c6d",
+    "reports/flydsl-comprehensive-20261116/run_native_sweep.py": "e4a616ad83622077073b1fe3060fc89551865a412f142c3fd9e83036df1bea63",
+    "reports/flydsl-native-sweep-plan-20261116/shape-manifest.json": "94fcc83c6a78ee9d2a5db091216dacb9294b1844178b08fa556bc40f978239db",
+    "FlyDSL-pr1374-review/python/flydsl/_mlir/_mlir_libs/libFlyPythonCAPI.so.24.0git": "398f8714bd75a32f59bc7c1f4e302d14cba4f176a072522bf69e5b8063ded7b5"
+  },
+  "binary_symlink": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.cache/flydsl-pr1374-runtime/flydsl/_mlir",
+  "compiler_artifact": {
+    "github_actions_run": 43719751811,
+    "artifact_id": 14164982207,
+    "artifact_sha256": "2c5369cceb762c9a0cc5273da766fdae5a4816fa96d67ea17e5f2c9d9ae777e8",
+    "source_pr_head": "639a5eab",
+    "note": "Matching upstream C++ runtime prepared during PR review; source Python remains frozen at benchmark FlyDSL commit. Loaded library hash is recorded separately."
+  },
+  "vllm_harness_sha256": "d381f39f98f955a8153bac0e779735b80d35647868c566468f17eb63a3389646"
+}

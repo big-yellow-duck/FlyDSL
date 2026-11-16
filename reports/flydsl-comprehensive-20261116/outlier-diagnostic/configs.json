@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "register",
+    "fast_epilogue": true,
+    "k_unroll": 8,
+    "repeat_m": 1,
+    "repeat_n": 1,
+    "waves_m": 1,
+    "waves_n": 2,
+    "table_mode": "alu"
+  },
+  {
+    "engine": "register",
+    "fast_epilogue": true,
+    "k_unroll": 8,
+    "repeat_m": 1,
+    "repeat_n": 1,
+    "waves_m": 1,
+    "waves_n": 2,
+    "table_mode": "lut"
+  }
+]

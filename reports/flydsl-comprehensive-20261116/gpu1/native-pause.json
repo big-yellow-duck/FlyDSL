@@ -1,0 +1,7 @@
+{
+  "runner_pid": 3324837,
+  "pause_started": 1794811966.9791286,
+  "reason": "Coordinated vLLM preflight; current native child permitted to complete",
+  "resumed": 1794812679.3836184,
+  "paused_seconds": 712.4044897556305
+}

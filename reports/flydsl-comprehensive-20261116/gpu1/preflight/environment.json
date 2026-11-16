@@ -1,0 +1,5 @@
+{
+  "ROCM_PATH": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel",
+  "FLYDSL_GPU_ARCH": "gfx1201",
+  "PYTHONPATH": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/python:/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/share/amd_smi"
+}

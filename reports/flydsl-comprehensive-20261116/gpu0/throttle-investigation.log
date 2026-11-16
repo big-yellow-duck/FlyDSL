@@ -1,0 +1,38 @@
+2026-11-16T15:31:52+08:00
+[
+    {
+        "gpu": 0,
+        "throttle": {
+            "accumulation_counter": "N/A",
+            "prochot_accumulated": "N/A",
+            "ppt_accumulated": "N/A",
+            "socket_thermal_accumulated": "N/A",
+            "vr_thermal_accumulated": "N/A",
+            "hbm_thermal_accumulated": "N/A",
+            "gfx_clk_below_host_limit_accumulated": "N/A",
+            "prochot_violation_status": "N/A",
+            "ppt_violation_status": "N/A",
+            "socket_thermal_violation_status": "N/A",
+            "vr_thermal_violation_status": "N/A",
+            "hbm_thermal_violation_status": "N/A",
+            "gfx_clk_below_host_limit_violation_status": "N/A",
+            "prochot_violation_activity": "N/A",
+            "ppt_violation_activity": "N/A",
+            "socket_thermal_violation_activity": "N/A",
+            "vr_thermal_violation_activity": "N/A",
+            "hbm_thermal_violation_activity": "N/A",
+            "gfx_clk_below_host_limit_violation_activity": "N/A"
+        }
+    }
+]
+[
+    {
+        "gpu": 0,
+        "overdrive": "N/A",
+        "mem_overdrive": "N/A"
+    }
+]
+EVENT LISTENING:
+
+Press q and hit ENTER when you want to stop.
+EOFError: EOF when reading a line

@@ -1,0 +1,1074 @@
+{
+  "native": {
+    "total": 1242,
+    "changed": 19,
+    "fields": {
+      "cache_group_m": 6,
+      "engine": 6,
+      "epilogue_prefetch": 19,
+      "fast_epilogue": 6,
+      "k_unroll": 6,
+      "operand_prefetch": 19,
+      "operand_schedule": 6,
+      "repeat_m": 6,
+      "repeat_n": 6,
+      "schedule": 6,
+      "stages": 19,
+      "table_mode": 19,
+      "tile_k": 19,
+      "tile_m": 19,
+      "tile_n": 6,
+      "waves_m": 19,
+      "waves_n": 18
+    },
+    "engine_transitions": {
+      "register -> hybrid": 6,
+      "hybrid -> hybrid": 13
+    },
+    "changes": [
+      {
+        "shape": [
+          32,
+          256,
+          256
+        ],
+        "hot_engine": "register",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "cache_group_m": {
+            "hot": null,
+            "rotating": 1
+          },
+          "engine": {
+            "hot": "register",
+            "rotating": "hybrid"
+          },
+          "epilogue_prefetch": {
+            "hot": null,
+            "rotating": false
+          },
+          "fast_epilogue": {
+            "hot": true,
+            "rotating": null
+          },
+          "k_unroll": {
+            "hot": 8,
+            "rotating": null
+          },
+          "operand_prefetch": {
+            "hot": null,
+            "rotating": 2
+          },
+          "operand_schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "repeat_m": {
+            "hot": 1,
+            "rotating": null
+          },
+          "repeat_n": {
+            "hot": 1,
+            "rotating": null
+          },
+          "schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "stages": {
+            "hot": null,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": null,
+            "rotating": 256
+          },
+          "tile_m": {
+            "hot": null,
+            "rotating": 32
+          },
+          "tile_n": {
+            "hot": null,
+            "rotating": 32
+          },
+          "waves_m": {
+            "hot": 1,
+            "rotating": 2
+          }
+        }
+      },
+      {
+        "shape": [
+          32,
+          512,
+          512
+        ],
+        "hot_engine": "register",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "cache_group_m": {
+            "hot": null,
+            "rotating": 1
+          },
+          "engine": {
+            "hot": "register",
+            "rotating": "hybrid"
+          },
+          "epilogue_prefetch": {
+            "hot": null,
+            "rotating": false
+          },
+          "fast_epilogue": {
+            "hot": true,
+            "rotating": null
+          },
+          "k_unroll": {
+            "hot": 8,
+            "rotating": null
+          },
+          "operand_prefetch": {
+            "hot": null,
+            "rotating": 2
+          },
+          "operand_schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "repeat_m": {
+            "hot": 1,
+            "rotating": null
+          },
+          "repeat_n": {
+            "hot": 1,
+            "rotating": null
+          },
+          "schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "stages": {
+            "hot": null,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": null,
+            "rotating": 256
+          },
+          "tile_m": {
+            "hot": null,
+            "rotating": 32
+          },
+          "tile_n": {
+            "hot": null,
+            "rotating": 32
+          },
+          "waves_m": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "waves_n": {
+            "hot": 4,
+            "rotating": 2
+          }
+        }
+      },
+      {
+        "shape": [
+          32,
+          1024,
+          1024
+        ],
+        "hot_engine": "register",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "cache_group_m": {
+            "hot": null,
+            "rotating": 1
+          },
+          "engine": {
+            "hot": "register",
+            "rotating": "hybrid"
+          },
+          "epilogue_prefetch": {
+            "hot": null,
+            "rotating": false
+          },
+          "fast_epilogue": {
+            "hot": true,
+            "rotating": null
+          },
+          "k_unroll": {
+            "hot": 8,
+            "rotating": null
+          },
+          "operand_prefetch": {
+            "hot": null,
+            "rotating": 2
+          },
+          "operand_schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "repeat_m": {
+            "hot": 1,
+            "rotating": null
+          },
+          "repeat_n": {
+            "hot": 1,
+            "rotating": null
+          },
+          "schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "stages": {
+            "hot": null,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": null,
+            "rotating": 256
+          },
+          "tile_m": {
+            "hot": null,
+            "rotating": 32
+          },
+          "tile_n": {
+            "hot": null,
+            "rotating": 32
+          },
+          "waves_m": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "waves_n": {
+            "hot": 4,
+            "rotating": 2
+          }
+        }
+      },
+      {
+        "shape": [
+          64,
+          256,
+          256
+        ],
+        "hot_engine": "register",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "cache_group_m": {
+            "hot": null,
+            "rotating": 1
+          },
+          "engine": {
+            "hot": "register",
+            "rotating": "hybrid"
+          },
+          "epilogue_prefetch": {
+            "hot": null,
+            "rotating": true
+          },
+          "fast_epilogue": {
+            "hot": true,
+            "rotating": null
+          },
+          "k_unroll": {
+            "hot": 8,
+            "rotating": null
+          },
+          "operand_prefetch": {
+            "hot": null,
+            "rotating": 2
+          },
+          "operand_schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "repeat_m": {
+            "hot": 1,
+            "rotating": null
+          },
+          "repeat_n": {
+            "hot": 1,
+            "rotating": null
+          },
+          "schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "stages": {
+            "hot": null,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": null,
+            "rotating": 256
+          },
+          "tile_m": {
+            "hot": null,
+            "rotating": 64
+          },
+          "tile_n": {
+            "hot": null,
+            "rotating": 32
+          },
+          "waves_m": {
+            "hot": 1,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 4,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          64,
+          512,
+          512
+        ],
+        "hot_engine": "register",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "cache_group_m": {
+            "hot": null,
+            "rotating": 1
+          },
+          "engine": {
+            "hot": "register",
+            "rotating": "hybrid"
+          },
+          "epilogue_prefetch": {
+            "hot": null,
+            "rotating": true
+          },
+          "fast_epilogue": {
+            "hot": true,
+            "rotating": null
+          },
+          "k_unroll": {
+            "hot": 8,
+            "rotating": null
+          },
+          "operand_prefetch": {
+            "hot": null,
+            "rotating": 2
+          },
+          "operand_schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "repeat_m": {
+            "hot": 1,
+            "rotating": null
+          },
+          "repeat_n": {
+            "hot": 1,
+            "rotating": null
+          },
+          "schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "stages": {
+            "hot": null,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": null,
+            "rotating": 256
+          },
+          "tile_m": {
+            "hot": null,
+            "rotating": 64
+          },
+          "tile_n": {
+            "hot": null,
+            "rotating": 32
+          },
+          "waves_m": {
+            "hot": 1,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 4,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          64,
+          1024,
+          1024
+        ],
+        "hot_engine": "register",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "cache_group_m": {
+            "hot": null,
+            "rotating": 1
+          },
+          "engine": {
+            "hot": "register",
+            "rotating": "hybrid"
+          },
+          "epilogue_prefetch": {
+            "hot": null,
+            "rotating": true
+          },
+          "fast_epilogue": {
+            "hot": true,
+            "rotating": null
+          },
+          "k_unroll": {
+            "hot": 8,
+            "rotating": null
+          },
+          "operand_prefetch": {
+            "hot": null,
+            "rotating": 2
+          },
+          "operand_schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "repeat_m": {
+            "hot": 1,
+            "rotating": null
+          },
+          "repeat_n": {
+            "hot": 1,
+            "rotating": null
+          },
+          "schedule": {
+            "hot": null,
+            "rotating": "none"
+          },
+          "stages": {
+            "hot": null,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": null,
+            "rotating": 256
+          },
+          "tile_m": {
+            "hot": null,
+            "rotating": 64
+          },
+          "tile_n": {
+            "hot": null,
+            "rotating": 32
+          },
+          "waves_m": {
+            "hot": 1,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 4,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          73,
+          2064,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          73,
+          4080,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          73,
+          4096,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          73,
+          4112,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          129,
+          1024,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          191,
+          1024,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          192,
+          1008,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          192,
+          1024,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          192,
+          1040,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          257,
+          1024,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          257,
+          2048,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          385,
+          1024,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      },
+      {
+        "shape": [
+          385,
+          2048,
+          8192
+        ],
+        "hot_engine": "hybrid",
+        "rotating_engine": "hybrid",
+        "differences": {
+          "epilogue_prefetch": {
+            "hot": false,
+            "rotating": true
+          },
+          "operand_prefetch": {
+            "hot": 13,
+            "rotating": 4
+          },
+          "stages": {
+            "hot": 1,
+            "rotating": 2
+          },
+          "table_mode": {
+            "hot": "alu",
+            "rotating": "lut"
+          },
+          "tile_k": {
+            "hot": 256,
+            "rotating": 128
+          },
+          "tile_m": {
+            "hot": 96,
+            "rotating": 128
+          },
+          "waves_m": {
+            "hot": 2,
+            "rotating": 4
+          },
+          "waves_n": {
+            "hot": 2,
+            "rotating": 1
+          }
+        }
+      }
+    ]
+  },
+  "tails": {
+    "total": 600,
+    "changed": 0,
+    "fields": {},
+    "engine_transitions": {},
+    "changes": []
+  },
+  "sensitivity": {
+    "total": 60,
+    "changed": 0,
+    "fields": {},
+    "engine_transitions": {},
+    "changes": []
+  }
+}

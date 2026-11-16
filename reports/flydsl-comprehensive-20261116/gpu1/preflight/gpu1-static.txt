@@ -1,0 +1,173 @@
+Fail to open libdrm_amdgpu.so: libdrm_amdgpu.so: cannot open shared object file: No such file or directory
+GPU: 1
+    ASIC:
+        MARKET_NAME: Navi 48 [Radeon AI PRO R9700]
+        VENDOR_ID: 0x1002
+        VENDOR_NAME: Advanced Micro Devices Inc. [AMD/ATI]
+        SUBVENDOR_ID: 0x148c
+        DEVICE_ID: 0x7551
+        SUBSYSTEM_ID: 0x2443
+        REV_ID: 0xc0
+        ASIC_SERIAL: 0xE60C46980656B10B
+        OAM_ID: N/A
+        NUM_COMPUTE_UNITS: 64
+        TARGET_GRAPHICS_VERSION: gfx1201
+    BUS:
+        BDF: 0000:72:00.0
+        MAX_PCIE_WIDTH: 16
+        MAX_PCIE_SPEED: 32 GT/s
+        PCIE_INTERFACE_VERSION: Gen 5
+        SLOT_TYPE: CEM
+    VBIOS:
+        NAME: P48AA_V10_E9
+        BUILD_DATE: 2025/07/25 03:38
+        PART_NUMBER: 113-EXT119250-100
+        VERSION: 023.008.000.068.000001
+    LIMIT:
+        MAX_POWER: 300 W
+        MIN_POWER: 210 W
+        SOCKET_POWER: 300 W
+        SLOWDOWN_EDGE_TEMPERATURE: 110 °C
+        SLOWDOWN_HOTSPOT_TEMPERATURE: 110 °C
+        SLOWDOWN_VRAM_TEMPERATURE: 108 °C
+        SHUTDOWN_EDGE_TEMPERATURE: 115 °C
+        SHUTDOWN_HOTSPOT_TEMPERATURE: 115 °C
+        SHUTDOWN_VRAM_TEMPERATURE: 113 °C
+    DRIVER:
+        NAME: amdgpu
+        VERSION: Linuxversion6.18.16-200.fc43.x86_64(mockbuild@8ac6a30e013b4c3d8dae12d726558c71)(gcc(GCC)15.2.120260123(RedHat15.2.1-7),GNUldversion2.45.1-4.fc43)#1SMPPREEMPT_DYNAMICWedMar419:13:32UTC2026
+    BOARD:
+        MODEL_NUMBER: N/A
+        PRODUCT_SERIAL: N/A
+        FRU_ID: N/A
+        PRODUCT_NAME: Navi 48 [Radeon AI PRO R9700]
+        MANUFACTURER_NAME: Advanced Micro Devices, Inc. [AMD/ATI]
+    RAS:
+        EEPROM_VERSION: 0x10000
+        PARITY_SCHEMA: ENABLED
+        SINGLE_BIT_SCHEMA: ENABLED
+        DOUBLE_BIT_SCHEMA: ENABLED
+        POISON_SCHEMA: DISABLED
+        ECC_BLOCK_STATE:
+            UMC: ENABLED
+            SDMA: DISABLED
+            GFX: DISABLED
+            MMHUB: DISABLED
+            ATHUB: DISABLED
+            PCIE_BIF: DISABLED
+            HDP: DISABLED
+            XGMI_WAFL: DISABLED
+            DF: ENABLED
+            SMN: DISABLED
+            SEM: DISABLED
+            MP0: DISABLED
+            MP1: DISABLED
+            FUSE: DISABLED
+            MCA: DISABLED
+            VCN: DISABLED
+            JPEG: DISABLED
+            IH: DISABLED
+            MPIO: DISABLED
+    PARTITION:
+        ACCELERATOR_PARTITION: N/A
+        MEMORY_PARTITION: N/A
+        PARTITION_ID: 0
+    SOC_PSTATE: N/A
+    XGMI_PLPD: N/A
+    PROCESS_ISOLATION: Disabled
+    NUMA:
+        NODE: 0
+        AFFINITY: 0
+    VRAM:
+        TYPE: GDDR6
+        VENDOR: SAMSUNG
+        SIZE: 32624 MB
+        BIT_WIDTH: 256
+        MAX_BANDWIDTH: N/A 
+    CACHE_INFO:
+        CACHE_0:
+            CACHE_PROPERTIES: DATA_CACHE, SIMD_CACHE
+            CACHE_SIZE: 32 KB
+            CACHE_LEVEL: 1
+            MAX_NUM_CU_SHARED: 1
+            NUM_CACHE_INSTANCE: 64
+        CACHE_1:
+            CACHE_PROPERTIES: INST_CACHE, SIMD_CACHE
+            CACHE_SIZE: 32 KB
+            CACHE_LEVEL: 1
+            MAX_NUM_CU_SHARED: 2
+            NUM_CACHE_INSTANCE: 32
+        CACHE_2:
+            CACHE_PROPERTIES: DATA_CACHE, SIMD_CACHE
+            CACHE_SIZE: 16 KB
+            CACHE_LEVEL: 1
+            MAX_NUM_CU_SHARED: 2
+            NUM_CACHE_INSTANCE: 32
+        CACHE_3:
+            CACHE_PROPERTIES: DATA_CACHE, SIMD_CACHE
+            CACHE_SIZE: 256 KB
+            CACHE_LEVEL: 1
+            MAX_NUM_CU_SHARED: 8
+            NUM_CACHE_INSTANCE: 8
+        CACHE_4:
+            CACHE_PROPERTIES: DATA_CACHE, SIMD_CACHE
+            CACHE_SIZE: 8192 KB
+            CACHE_LEVEL: 2
+            MAX_NUM_CU_SHARED: 64
+            NUM_CACHE_INSTANCE: 1
+        CACHE_5:
+            CACHE_PROPERTIES: DATA_CACHE, SIMD_CACHE
+            CACHE_SIZE: 65536 KB
+            CACHE_LEVEL: 3
+            MAX_NUM_CU_SHARED: 64
+            NUM_CACHE_INSTANCE: 1
+    CLOCK:
+        SYS:
+            CURRENT LEVEL: 1
+            FREQUENCY_LEVELS:
+                LEVEL 0: 500 MHz
+                LEVEL 1: 75 MHz
+                LEVEL 2: 2350 MHz
+        MEM:
+            CURRENT LEVEL: 2
+            FREQUENCY_LEVELS:
+                LEVEL 0: 96 MHz
+                LEVEL 1: 456 MHz
+                LEVEL 2: 772 MHz
+                LEVEL 3: 875 MHz
+                LEVEL 4: 1124 MHz
+                LEVEL 5: 1258 MHz
+        DF:
+            CURRENT LEVEL: 1
+            FREQUENCY_LEVELS:
+                LEVEL 0: 313 MHz
+                LEVEL 1: 2378 MHz
+                LEVEL 2: 2400 MHz
+        SOC:
+            CURRENT LEVEL: 1
+            FREQUENCY_LEVELS:
+                LEVEL 0: 417 MHz
+                LEVEL 1: 1371 MHz
+                LEVEL 2: 1476 MHz
+        DCEF:
+            CURRENT LEVEL: 1
+            FREQUENCY_LEVELS:
+                LEVEL 0: 147 MHz
+                LEVEL 1: 1800 MHz
+        VCLK0:
+            CURRENT LEVEL: 0
+            FREQUENCY_LEVELS:
+                LEVEL 0: 2933 MHz
+        VCLK1:
+            CURRENT LEVEL: 0
+            FREQUENCY_LEVELS:
+                LEVEL 0: 2933 MHz
+        DCLK0:
+            CURRENT LEVEL: 0
+            FREQUENCY_LEVELS:
+                LEVEL 0: 2200 MHz
+        DCLK1:
+            CURRENT LEVEL: 0
+            FREQUENCY_LEVELS:
+                LEVEL 0: 2200 MHz
+

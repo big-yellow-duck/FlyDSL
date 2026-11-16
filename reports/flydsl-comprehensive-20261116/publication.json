@@ -1,0 +1,20 @@
+{
+  "measured_flydsl_commit": "3ed2ca5f68ecc2fd972cb23d4da366364e91d261",
+  "measured_vllm_commit": "3c138b588506cf2196e5f183d3fe893d973ec2e3",
+  "archives": [
+    {
+      "path": "raw/gpu0.tar.gz",
+      "files": 2054,
+      "bytes": 4251050,
+      "sha256": "44a202b416375a61a2425c5250a7d6fb7c40f206af4013a6bc8cac30a4f42f33"
+    },
+    {
+      "path": "raw/gpu1.tar.gz",
+      "files": 2059,
+      "bytes": 4931033,
+      "sha256": "f9589e5ad7bb811b21c70d7cb7382360cc80e044eb05d0d332299286861b0a5f"
+    }
+  ],
+  "raw_records_unchanged": true,
+  "note": "Report wording and links adapted for publication; numerical outputs and frozen runners retained."
+}

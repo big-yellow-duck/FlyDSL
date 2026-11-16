@@ -1,0 +1,1590 @@
+2026-11-16T14:38:44+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 15 W
+        GFX_VOLTAGE: 30 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 0 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 46 °C
+        HOTSPOT: 47 °C
+        MEM: 48 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T14:43:42+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 49 W
+        GFX_VOLTAGE: 594 mV
+        SOC_VOLTAGE: 825 mV
+        MEM_VOLTAGE: 1350 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 97 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 1124 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1848 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 1129 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+    TEMPERATURE:
+        EDGE: 48 °C
+        HOTSPOT: 50 °C
+        MEM: 54 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T14:51:15+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 45 W
+        GFX_VOLTAGE: 944 mV
+        SOC_VOLTAGE: 824 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 2233 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 875 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1537 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 872 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 48 °C
+        HOTSPOT: 49 °C
+        MEM: 50 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T14:55:54+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 20 W
+        GFX_VOLTAGE: 594 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 50 °C
+        HOTSPOT: 51 °C
+        MEM: 54 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T15:05:01+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 18 W
+        GFX_VOLTAGE: 30 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 0 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 49 °C
+        HOTSPOT: 50 °C
+        MEM: 52 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T15:14:10+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 20 W
+        GFX_VOLTAGE: 30 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 0 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 50 °C
+        HOTSPOT: 51 °C
+        MEM: 52 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T15:31:03+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 21 W
+        GFX_VOLTAGE: 594 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 50 °C
+        HOTSPOT: 51 °C
+        MEM: 52 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T15:47:52+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 26 W
+        GFX_VOLTAGE: 939 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1249 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 151 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 1957 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 46 °C
+        HOTSPOT: 47 °C
+        MEM: 50 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T15:52:03+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 25 W
+        GFX_VOLTAGE: 565 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 111 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 61 °C
+        HOTSPOT: 63 °C
+        MEM: 64 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T15:55:46+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 275 W
+        GFX_VOLTAGE: 1144 mV
+        SOC_VOLTAGE: 815 mV
+        MEM_VOLTAGE: 1349 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 3371 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 1258 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1124 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 2016 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 1280 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+    TEMPERATURE:
+        EDGE: 63 °C
+        HOTSPOT: 79 °C
+        MEM: 76 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T15:58:50+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 23 W
+        GFX_VOLTAGE: 565 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 57 °C
+        HOTSPOT: 58 °C
+        MEM: 60 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T16:02:26+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 26 W
+        GFX_VOLTAGE: 565 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 60 °C
+        HOTSPOT: 60 °C
+        MEM: 64 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T16:05:53+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 273 W
+        GFX_VOLTAGE: 1140 mV
+        SOC_VOLTAGE: 815 mV
+        MEM_VOLTAGE: 1350 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 3353 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 1258 MHz
+            MIN_CLK: 96 MHz
+            MAX_CLK: 1124 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 2016 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        SOCCLK_0:
+            CLK: 1280 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+    TEMPERATURE:
+        EDGE: 65 °C
+        HOTSPOT: 80 °C
+        MEM: 78 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T16:14:15+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 25 W
+        GFX_VOLTAGE: 565 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: UNTHROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 417 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 61 °C
+        HOTSPOT: 62 °C
+        MEM: 64 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+
+2026-11-16T16:21:53+08:00
+GPU: 0
+    POWER:
+        SOCKET_POWER: 20 W
+        GFX_VOLTAGE: 594 mV
+        SOC_VOLTAGE: 830 mV
+        MEM_VOLTAGE: 1250 mV
+        THROTTLE_STATUS: THROTTLED
+        POWER_MANAGEMENT: ENABLED
+    CLOCK:
+        GFX_0:
+            CLK: 41 MHz
+            MIN_CLK: 500 MHz
+            MAX_CLK: 2350 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: ENABLED
+        GFX_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_2:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_3:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_4:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_5:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_6:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        GFX_7:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        MEM_0:
+            CLK: 96 MHz
+            MIN_CLK: 456 MHz
+            MAX_CLK: 1258 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        VCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        VCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_0:
+            CLK: 25 MHz
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        DCLK_1:
+            CLK: N/A
+            MIN_CLK: N/A
+            MAX_CLK: N/A
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: N/A
+        FCLK_0:
+            CLK: 582 MHz
+            MIN_CLK: 313 MHz
+            MAX_CLK: 2400 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+        SOCCLK_0:
+            CLK: 417 MHz
+            MIN_CLK: 1476 MHz
+            MAX_CLK: 1476 MHz
+            CLK_LOCKED: N/A
+            DEEP_SLEEP: DISABLED
+    TEMPERATURE:
+        EDGE: 48 °C
+        HOTSPOT: 49 °C
+        MEM: 52 °C
+    PERF_LEVEL: AMDSMI_DEV_PERF_LEVEL_AUTO
+

@@ -1,0 +1,33 @@
+{
+  "gpu": 1,
+  "runner_exit_code": 0,
+  "expected_jobs": 633,
+  "job_status_counts": {
+    "success": 633
+  },
+  "job_counts_by_pass": {
+    "1": {
+      "success": 211
+    },
+    "2": {
+      "success": 211
+    },
+    "3": {
+      "success": 211
+    }
+  },
+  "rows_by_pass": {
+    "1": 1726,
+    "2": 1726,
+    "3": 1726
+  },
+  "total_validated_rows": 5178,
+  "validation_errors": [],
+  "wall_seconds_including_recorded_pause": 4729.663546562195,
+  "pause_event_file": "pause-events.jsonl",
+  "pause_duration_seconds": 712,
+  "pause_included_in_raw_samples": false,
+  "preflight_cases": 6,
+  "preflight_supported_cases": 6,
+  "gpu1_idle_after_sweep": true
+}

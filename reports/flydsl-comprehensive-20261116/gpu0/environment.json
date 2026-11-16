@@ -1,0 +1,160 @@
+{
+  "env": {
+    "ROCM_PATH": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel",
+    "FLYDSL_GPU_ARCH": "gfx1201",
+    "PYTHONPATH": "/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review/python:/home/ellm/jeff/rocm_workspaces/10/gfx1201/FlyDSL-pr1374-review:/home/ellm/jeff/rocm_workspaces/10/gfx1201/.pixi/envs/default/lib/python3.12/site-packages/_rocm_sdk_devel/share/amd_smi"
+  },
+  "torch": "2.13.0+rocm10.0.0",
+  "hip": "7.15.26333",
+  "device_count": 2,
+  "devices": [
+    {
+      "index": 0,
+      "name": "AMD Radeon AI PRO R9700",
+      "properties": "_CudaDeviceProperties(name='AMD Radeon AI PRO R9700', major=12, minor=0, gcnArchName='gfx1201', total_memory=32624MB, multi_processor_count=32, uuid=63336230-6464-3737-3066-616330633962, pci_bus_id=84, pci_device_id=0, pci_domain_id=0, L2_cache_size=8MB)"
+    },
+    {
+      "index": 1,
+      "name": "AMD Radeon AI PRO R9700",
+      "properties": "_CudaDeviceProperties(name='AMD Radeon AI PRO R9700', major=12, minor=0, gcnArchName='gfx1201', total_memory=32624MB, multi_processor_count=32, uuid=65363063-3436-3938-3036-353662313062, pci_bus_id=114, pci_device_id=0, pci_domain_id=0, L2_cache_size=8MB)"
+    }
+  ],
+  "amdsmi": [
+    {
+      "uuid": "c3007551-0000-1000-80b0-dd770fac0c9b",
+      "cache": {
+        "cache": [
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 32,
+            "cache_level": 1,
+            "max_num_cu_shared": 1,
+            "num_cache_instance": 64
+          },
+          {
+            "cache_properties": [
+              "INST_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 32,
+            "cache_level": 1,
+            "max_num_cu_shared": 2,
+            "num_cache_instance": 32
+          },
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 16,
+            "cache_level": 1,
+            "max_num_cu_shared": 2,
+            "num_cache_instance": 32
+          },
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 256,
+            "cache_level": 1,
+            "max_num_cu_shared": 8,
+            "num_cache_instance": 8
+          },
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 8192,
+            "cache_level": 2,
+            "max_num_cu_shared": 64,
+            "num_cache_instance": 1
+          },
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 65536,
+            "cache_level": 3,
+            "max_num_cu_shared": 64,
+            "num_cache_instance": 1
+          }
+        ]
+      },
+      "vram_total": 34208743424
+    },
+    {
+      "uuid": "e6007551-0000-1000-800c-46980656b10b",
+      "cache": {
+        "cache": [
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 32,
+            "cache_level": 1,
+            "max_num_cu_shared": 1,
+            "num_cache_instance": 64
+          },
+          {
+            "cache_properties": [
+              "INST_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 32,
+            "cache_level": 1,
+            "max_num_cu_shared": 2,
+            "num_cache_instance": 32
+          },
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 16,
+            "cache_level": 1,
+            "max_num_cu_shared": 2,
+            "num_cache_instance": 32
+          },
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 256,
+            "cache_level": 1,
+            "max_num_cu_shared": 8,
+            "num_cache_instance": 8
+          },
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 8192,
+            "cache_level": 2,
+            "max_num_cu_shared": 64,
+            "num_cache_instance": 1
+          },
+          {
+            "cache_properties": [
+              "DATA_CACHE",
+              "SIMD_CACHE"
+            ],
+            "cache_size": 65536,
+            "cache_level": 3,
+            "max_num_cu_shared": 64,
+            "num_cache_instance": 1
+          }
+        ]
+      },
+      "vram_total": 34208743424
+    }
+  ]
+}
