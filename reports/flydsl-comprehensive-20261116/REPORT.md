@@ -2,17 +2,32 @@
 
 Completed measurements, 16 November 2026.
 
-**Revision scope:** this full sweep measures FlyDSL [`3ed2ca5`](https://github.com/big-yellow-duck/FlyDSL/commit/3ed2ca5f68ecc2fd972cb23d4da366364e91d261), using E4M3-folded weights. PR #1374 later switched to E5M2 folding and removed the cache-policy hint in [`495bb86`](https://github.com/big-yellow-duck/FlyDSL/commit/495bb86d30e3d5062444b867f4a5c9348dfea151). These numbers are historical evidence for the measured revision, not a comprehensive measurement of that later implementation.
+## Current kernel and measurement scope
+
+The current PR implementation ([`495bb86`](https://github.com/big-yellow-duck/FlyDSL/commit/495bb86d30e3d5062444b867f4a5c9348dfea151)) uses **E5M2 as its only folded weight format**, with grouped K32 scaling when folding would lose information. Weights stay packed as MXFP4 in GPU memory and are decoded into E5M2 fragments inside GEMM. Activations remain E4M3. Config selection uses one set of shape/hardware rules; the caller-facing cache-policy hint has been removed.
+
+There are two separate sets of performance evidence:
+
+| Experiment | Weight formats measured | Coverage |
+| --- | --- | --- |
+| Full arbitrary-shape sweep below | E4M3 folding at `3ed2ca5` | 1,842 unique shapes, three passes |
+| [Paired E4M3/E5M2 comparison](../flydsl-weight-format-20261116/REPORT.md) | Both formats, identical inputs/configs | 20 shape/scale cases, three passes |
+
+In the paired comparison, E5M2 was about 0.6% slower hot and 0.4% slower read-evicted for the 12 ordinary-scale shapes. For wider scale spans requiring E4M3 subnormal handling, E5M2 was 2.6–3.1% faster hot across the four tested shapes per span, with little read-evicted difference. All 60 paired evaluations produced bitwise-identical BF16 outputs. These are targeted measurements supporting the format simplification; the full sweep has **not** been rerun on the E5M2-only revision.
+
+## Recorded full-sweep results
+
+The following timings retain the revision and formats actually measured: FlyDSL [`3ed2ca5`](https://github.com/big-yellow-duck/FlyDSL/commit/3ed2ca5f68ecc2fd972cb23d4da366364e91d261) with E4M3-folded weights. They must not be read as E5M2-only full-sweep results.
 
 See [reproduction commands and artifact layout](REPRODUCE.md). Performance aggregates below come from the full three-pass sweeps; preflight timings are excluded.
 
-Against native predecoded FP8, FlyDSL MXFP4 achieves **1.345× hot / 1.552× read-evicted** equal-weight geometric-mean speedup across 1,242 shapes. Against vLLM’s historical-default W4A4 emulation path, the current FlyDSL W4A8 layer path achieves **2.897× / 2.682×** across 1,158 supported shapes. The two comparisons have different input precision, measured operations, and shape domains.
+In the recorded sweep, against native predecoded FP8, FlyDSL MXFP4 achieved **1.345× hot / 1.552× read-evicted** equal-weight geometric-mean speedup across 1,242 shapes. Against vLLM’s historical-default W4A4 emulation path, the benchmarked FlyDSL W4A8 layer path achieved **2.897× / 2.682×** across 1,158 supported shapes. The two comparisons have different input precision, measured operations, and shape domains.
 
 Performance is not uniformly better. The lowest native hot speedup is **0.113×** at **M=8, N=528, K=8192**: FlyDSL **89.59 µs** versus native FP8 **10.06 µs**, with pass ratios **0.112–0.113×**. The worst-case tables and per-shape CSVs retain these regressions. No kernel or selector changes were made during the sweep.
 
 The six lowest native hot ratios occur at M=8, N∈{528,1008,1040}, and K∈{4096,8192}. These N values are divisible by 16 but not 32. This is a repeatable small-M/alignment pattern, not a single noisy sample; the measurements alone do not establish its compiler or kernel-level cause.
 
-The source audit confirms that the checkpoint-default gfx1201 path used W4A4 emulation before FlyDSL. This report measures synthetic linear layers through the actual current vLLM implementations, including their activation quantizers. It does not measure model throughput or task accuracy.
+The source audit confirms that the checkpoint-default gfx1201 path used W4A4 emulation before FlyDSL. This report measures synthetic linear layers through the vLLM implementations at the recorded revision, including their activation quantizers. It does not measure model throughput or task accuracy.
 
 ## Coverage and validation
 
@@ -65,9 +80,9 @@ The 128 reserved arbitrary shapes retain an average advantage: 1.355× hot and 1
 
 ## vLLM W4A4 emulation comparison
 
-The cached `amd/Qwen3.8-27B-Quark-AWQ-MXFP4` configuration declares static MXFP4 weights and dynamic group-32 MXFP4 activations. In the source before FlyDSL was introduced (`335dd77b09161c5d63139b4e7ae51bb9928305b1`), ROCm tried RDNA3 W4A8, AITER MXFP4, then emulation. RDNA3 rejected gfx1201, and AITER required native MX support absent on gfx1201. Emulation was therefore the compatible default when Quark was installed. Commit `4816c7b43f52a09efd09409e6a023b5dd31579f5` later made the RDNA4 candidate substitute per-token FP8 activations. Historical dispatch is established from source history; the historical server binary was not run. The harness verifies the current auto selector chooses FlyDSL W4A8 and explicit emulation chooses W4A4. See [dispatch audit](vllm-audit/README.md) and [exact evidence](vllm-audit/evidence.json).
+The cached `amd/Qwen3.8-27B-Quark-AWQ-MXFP4` configuration declares static MXFP4 weights and dynamic group-32 MXFP4 activations. In the source before FlyDSL was introduced (`335dd77b09161c5d63139b4e7ae51bb9928305b1`), ROCm tried RDNA3 W4A8, AITER MXFP4, then emulation. RDNA3 rejected gfx1201, and AITER required native MX support absent on gfx1201. Emulation was therefore the compatible default when Quark was installed. Commit `4816c7b43f52a09efd09409e6a023b5dd31579f5` later made the RDNA4 candidate substitute per-token FP8 activations. Historical dispatch is established from source history; the historical server binary was not run. The harness verified that the recorded revision’s auto selector chose FlyDSL W4A8 and explicit emulation chose W4A4. See [dispatch audit](vllm-audit/README.md) and [exact evidence](vllm-audit/evidence.json).
 
-Both arms start with identical packed MXFP4 weights/scales and the same BF16 input. The timed GPU work is vLLM `apply_weights`: W4A4 activation QDQ, **per-call weight dequantization**, and BF16 `F.linear` versus dynamic per-token FP8 quantization and the FlyDSL GEMM. FlyDSL post-load preparation stays outside timing. `VLLM_MXFP4_EMULATION_DEQUANT_AT_LOAD=0` matches the historical default; the opt-in cached-weight emulation variant is not benchmarked. Current vLLM selects FlyDSL with `cache_policy='rotating'`, which the harness preserves for both timing regimes.
+Both arms start with identical packed MXFP4 weights/scales and the same BF16 input. The timed GPU work is vLLM `apply_weights`: W4A4 activation QDQ, **per-call weight dequantization**, and BF16 `F.linear` versus dynamic per-token FP8 quantization and the FlyDSL GEMM. FlyDSL post-load preparation stays outside timing. `VLLM_MXFP4_EMULATION_DEQUANT_AT_LOAD=0` matches the historical default; the opt-in cached-weight emulation variant is not benchmarked. The measured vLLM revision passed `cache_policy='rotating'`, which the frozen harness preserves for both timing regimes. The updated integration no longer passes this removed parameter.
 
 | Regime | Shapes | Geomean speedup | Median speedup | Range | Consistent wins | Consistent losses | Small/inconsistent |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -203,7 +218,7 @@ Latencies below are median microseconds across the three pass medians. Speedup i
 
 ## Supplemental decoder diagnostic
 
-After GPU 0’s main sweeps, a separate three-pass experiment toggled only the existing register decoder between ALU and LUT at M=1/8 for the two N/K pairs below. It reused the unchanged native benchmark and kept all other config fields fixed. These measurements are excluded from every main sweep aggregate, and the production selector remains unchanged. A LUT/ALU ratio above one favors ALU.
+After GPU 0’s main sweeps, a separate three-pass experiment toggled only the existing register decoder between ALU and LUT at M=1/8 for the two N/K pairs below. It reused the unchanged native benchmark and kept all other config fields fixed. These measurements are excluded from every main sweep aggregate, and the selector was held fixed during the experiment. A LUT/ALU ratio above one favors ALU.
 
 | M×N×K | Regime | Default decoder | ALU µs | LUT µs | Native FP8 µs | LUT/ALU | Pass range |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -216,11 +231,11 @@ After GPU 0’s main sweeps, a separate three-pass experiment toggled only the e
 | 8×1040×4096 | hot | alu | 46.46 | 44.52 | 11.21 | 0.956× | 0.891–0.958× |
 | 8×1040×4096 | rotating | alu | 72.04 | 68.64 | 23.58 | 0.954× | 0.952–0.998× |
 
-Switching to ALU does not fix either M8 regression. At `(8,528,8192)`, hot ALU/LUT medians are 91.41/87.45 µs versus 9.83 µs for native FP8. At `(8,1040,4096)`, they are 46.46/44.52 µs versus 11.21 µs. LUT is slightly faster in these checks, while the large slowdown persists. The decoder choice is therefore insufficient to explain the regression; its kernel/compiler-level cause remains unresolved. The production defaults remain LUT for the first shape and ALU for the second. See [raw diagnostic passes](gpu0/outlier-diagnostic/), [configs and plan](outlier-diagnostic/), and [comparison CSV](outlier-diagnostic/decoder-comparison.csv).
+Switching to ALU does not fix either M8 regression. At `(8,528,8192)`, hot ALU/LUT medians are 91.41/87.45 µs versus 9.83 µs for native FP8. At `(8,1040,4096)`, they are 46.46/44.52 µs versus 11.21 µs. LUT is slightly faster in these checks, while the large slowdown persists. The decoder choice is therefore insufficient to explain the regression; its kernel/compiler-level cause remains unresolved. The measured defaults were LUT for the first shape and ALU for the second. See [raw diagnostic passes](gpu0/outlier-diagnostic/), [configs and plan](outlier-diagnostic/), and [comparison CSV](outlier-diagnostic/decoder-comparison.csv).
 
-## Selection-policy sensitivity
+## Historical selection-policy sensitivity
 
-The 60 planned sensitivity shapes were also measured under explicit `hot` and `rotating` selection policies. These policy names choose configs; both timing regimes were measured under each policy. The following uses the same 60-shape subset for all policies, with each speedup calculated against its paired native baseline. Policy jobs may be assigned to different GPUs, so this is a diagnostic of baseline-relative results rather than a direct same-GPU config ablation. A subsequent [config audit](cache-policy-config-diff.json) found that all 60 shapes selected identical configs under these policies; their small timing differences are not evidence of a policy benefit.
+Before the policy parameter was removed, the 60 planned sensitivity shapes were also measured under explicit `hot` and `rotating` selection policies. These policy names choose configs; both timing regimes were measured under each policy. The following uses the same 60-shape subset for all policies, with each speedup calculated against its paired native baseline. Policy jobs may be assigned to different GPUs, so this is a diagnostic of baseline-relative results rather than a direct same-GPU config ablation. A subsequent [config audit](cache-policy-config-diff.json) found that all 60 shapes selected identical configs under these policies; their small timing differences are not evidence of a policy benefit.
 
 | Selection policy | Shapes | Hot geomean | Read-evicted geomean |
 | --- | --- | --- | --- |

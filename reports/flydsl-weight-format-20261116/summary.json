@@ -1,0 +1,21 @@
+{
+  "cases": 20,
+  "passes": 3,
+  "evaluations": 60,
+  "all_outputs_bitwise_identical": true,
+  "max_own_reference_rms": 1.0942562767013442e-06,
+  "by_span_geomean_e5m2_speedup": {
+    "7": {
+      "hot": 0.9941586607522617,
+      "read_evicted": 0.9960016498986284
+    },
+    "12": {
+      "hot": 1.0257786830105549,
+      "read_evicted": 1.0021062321629783
+    },
+    "14": {
+      "hot": 1.0306159357885487,
+      "read_evicted": 1.001176981524559
+    }
+  }
+}

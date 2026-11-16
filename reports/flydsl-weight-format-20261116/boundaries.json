@@ -1,0 +1,179 @@
+[
+  {
+    "span": 7,
+    "auto": "e4m3",
+    "modes": {
+      "e4m3": {
+        "normal_only": true,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "e5m2": {
+        "normal_only": true,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  },
+  {
+    "span": 11,
+    "auto": "e4m3",
+    "modes": {
+      "e4m3": {
+        "normal_only": true,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "e5m2": {
+        "normal_only": true,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  },
+  {
+    "span": 12,
+    "auto": "e4m3",
+    "modes": {
+      "e4m3": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "e5m2": {
+        "normal_only": true,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  },
+  {
+    "span": 14,
+    "auto": "e4m3",
+    "modes": {
+      "e4m3": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "e5m2": {
+        "normal_only": true,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  },
+  {
+    "span": 15,
+    "auto": "e5m2",
+    "modes": {
+      "e4m3": {
+        "rejected": "scale range cannot be represented losslessly in e4m3"
+      },
+      "e5m2": {
+        "normal_only": true,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  },
+  {
+    "span": 26,
+    "auto": "e5m2",
+    "modes": {
+      "e4m3": {
+        "rejected": "scale range cannot be represented losslessly in e4m3"
+      },
+      "e5m2": {
+        "normal_only": true,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  },
+  {
+    "span": 27,
+    "auto": "e5m2",
+    "modes": {
+      "e4m3": {
+        "rejected": "scale range cannot be represented losslessly in e4m3"
+      },
+      "e5m2": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  },
+  {
+    "span": 28,
+    "auto": "e5m2",
+    "modes": {
+      "e4m3": {
+        "rejected": "scale range cannot be represented losslessly in e4m3"
+      },
+      "e5m2": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": true
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  },
+  {
+    "span": 29,
+    "auto": "grouped",
+    "modes": {
+      "e4m3": {
+        "rejected": "scale range cannot be represented losslessly in e4m3"
+      },
+      "e5m2": {
+        "rejected": "scale range cannot be represented losslessly in e5m2"
+      },
+      "grouped": {
+        "normal_only": false,
+        "exact_output": true,
+        "exact_fold": false
+      }
+    }
+  }
+]

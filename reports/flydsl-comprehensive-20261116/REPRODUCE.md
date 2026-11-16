@@ -1,6 +1,6 @@
 # Reproduce the arbitrary-shape sweep
 
-The [full report](REPORT.md) measures FlyDSL `3ed2ca5f68ecc2fd972cb23d4da366364e91d261` and vLLM `3c138b588506cf2196e5f183d3fe893d973ec2e3`. Use those revisions to reproduce the published numbers. Later E5M2-only code is a different implementation.
+The [full report](REPORT.md) measures FlyDSL `3ed2ca5f68ecc2fd972cb23d4da366364e91d261` and vLLM `3c138b588506cf2196e5f183d3fe893d973ec2e3`. Use those revisions to reproduce the published numbers. The current kernel uses E5M2 folding with a grouped fallback. The commands below reproduce the historical E4M3 full sweep; the [separate format-comparison guide](../flydsl-weight-format-20261116/REPORT.md#reproduction) reproduces the E4M3/E5M2 experiment.
 
 ## Inspect or recompute the published results without a GPU
 
